@@ -43,7 +43,7 @@ body {
   height: 50px;
   font-size: 1.3rem;
   border: none;
-  background-color: var(--main-nopixel);
+  background-color: var(--secondary-nopixel);
   color: white;
   cursor: pointer;
   padding: 5px;
