@@ -43,7 +43,7 @@ body {
   height: 50px;
   font-size: 1.3rem;
   border: none;
-  background-color: var(--secondary-nopixel);
+  background-color: var(--main-nopixel);
   color: white;
   cursor: pointer;
   padding: 5px;
@@ -174,7 +174,7 @@ input[type="search"]::-webkit-search-decoration {
   color: white;
   background-color: var(--secondary-nopixel-darker);
   padding: 30px 30px 10px 30px;
-  margin: 70px auto 20px auto;
+  margin: 87px auto 20px auto;
   border-radius: 15px;
   border: 20px;
   max-width: 45%;
@@ -385,7 +385,7 @@ a:hover {
   .card {
     padding: 5px 15px 5px 15px;
     padding-top: 20px;
-    margin: 50px 10px 10px 10px;
+    margin: 68px 10px 10px 10px;
     max-width: 100%
   }
   .otherCarmodsList {
@@ -422,7 +422,7 @@ a:hover {
   .card {
     padding: 5px 15px 5px 15px;
     padding-top: 20px;
-    margin: 40px 10px 10px 10px;
+    margin: 58px 10px 10px 10px;
   }
   .otherCarmodsList {
     padding: 10px 15px 10px 15px;
