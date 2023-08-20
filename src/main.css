@@ -2,11 +2,11 @@ body {
   --white: #fff;
   --black: #000;
   --main-nopixel: #111117;
+  --main-nopixel-lighter: #16161d;
   --secondary-nopixel: #212127;
   --secondary-nopixel-darker: #1d1d25;
-  --main-accent-nopixel: #00f8b9; /* cyan - lime green */
+  --main-accent-nopixel: #00f8b9;
   --main-accent-nopixel-hover: #008060;
-  --secondary-accent-nopixel: #00f8b9;
   --accent-onx: #ee46bd;
 
   margin: 0;
@@ -23,7 +23,7 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--secondary-nopixel-darker); 
+  background: var(--main-nopixel-lighter); 
 }
 ::-webkit-scrollbar-thumb {
   background: var(--main-accent-nopixel);
