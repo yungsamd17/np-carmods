@@ -64,7 +64,6 @@ header {
   background: var(--secondary-nopixel);
   font-family: 'Nunito', sans-serif;
   user-select: none;
-  border-radius: 0 0 15px 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 2rem;
 }
@@ -164,7 +163,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Search results */
 #searchResultsMessage {
-  color: #00f9b9;
+  color: var(--main-accent-nopixel);
   font-weight: bold;
 }
 
@@ -175,7 +174,7 @@ input[type="search"]::-webkit-search-decoration {
   background-color: var(--secondary-nopixel-darker);
   padding: 30px 30px 10px 30px;
   margin: 87px auto 20px auto;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 20px;
   max-width: 45%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
@@ -186,7 +185,7 @@ input[type="search"]::-webkit-search-decoration {
   background-color: var(--secondary-nopixel-darker);
   padding: 10px 30px 10px 30px;
   margin: 10px auto 46px auto;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 20px;
   max-width: 45%;
   text-align: center;
@@ -301,7 +300,7 @@ input[type="search"]::-webkit-search-decoration {
   padding: 0;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 /* The Close Button */
 .close {
@@ -321,7 +320,7 @@ input[type="search"]::-webkit-search-decoration {
   background-color: var(--secondary-nopixel);
   color: white;
   text-align: center;
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .modal-body {
