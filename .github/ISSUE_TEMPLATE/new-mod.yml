@@ -31,6 +31,8 @@ body:
       required: true
     attributes:
       label: Mod Link
-      description: Link to either `gta5-mods.com`, `patreon.com` or `tebex store`. Or any other link that the mod is hosted on.
+      description: |
+        Link to either `gta5-mods.com`, `patreon.com` or `tebex store`. Or any other link that the mod is hosted on.
+        If the mod is exclusive to NoPixel just type "NoPixel Exclusive"
       placeholder: |
         Example: https://www.gta5-mods.com/vehicles/ubermacht-sentinel-sg4-add-on-liveries
