@@ -1,0 +1,27 @@
+name: Mod Removed
+description: The following mod was removed.
+labels: [Mod Removed]
+
+body:
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Checklist
+      description:
+      options:
+        - label: I've searched the [issues and pull requests](https://github.com/yungsamd17/np-carmods/issues?q=) for similar looking reports.
+          required: true
+        - label: I've checked the [NoPixel Vehicle Mods](https://yungsamd17.github.io/np-carmods/) and the mod is still present.
+          required: true
+
+  - type: input
+    id: modname
+    validations:
+      required: true
+    attributes:
+      label: Mod Name
+      description: |
+        Full mod name in question, brand and model name.
+      placeholder: |
+        Example:
+          - "Ubermacht Sentinel SG4"

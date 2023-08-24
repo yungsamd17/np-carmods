@@ -1,0 +1,45 @@
+name: Wrong Link
+description: There is a wrong link next to mod that doesn't match it.
+labels: [Wrong Link]
+
+body:
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Checklist
+      description:
+      options:
+        - label: I've searched the [issues and pull requests](https://github.com/yungsamd17/np-carmods/issues?q=) for similar looking reports.
+          required: true
+        - label: I've checked the mod link, and the mod was not removed from website it's hosted.
+          required: true
+
+  - type: input
+    id: modname
+    validations:
+      required: true
+    attributes:
+      label: Mod Name
+      description: |
+        Full mod name in question, brand and model name.
+      placeholder: |
+        Example:
+          - "Ubermacht Sentinel SG4"
+
+  - type: input
+    id: newlink
+    validations:
+      required: true
+    attributes:
+      label: New/Correct Mod Link
+      description: Link to either `gta5-mods.com`, `patreon.com` or `tebex store`. Or any other link that the mod is hosted on.
+      placeholder: https://www.gta5-mods.com/vehicles/ubermacht-sentinel-sg4-add-on-liveries
+
+  - type: input
+    id: currentlink
+    validations:
+      required: true
+    attributes:
+      label: Current Mod Link
+      description: Link to either `gta5-mods.com`, `patreon.com` or `tebex store`. Or any other link that the mod is hosted on.
+      placeholder: https://www.gta5-mods.com/vehicles/ubermacht-sentinel-sg4-add-on-liveries
