@@ -23,8 +23,7 @@ body:
       description: |
         Full mod name in question, brand and model name.
       placeholder: |
-        Example:
-          - "Ubermacht Sentinel SG4"
+        Example: "Ubermacht Sentinel SG4"
 
   - type: input
     id: modlink
@@ -33,4 +32,5 @@ body:
     attributes:
       label: Mod Link
       description: Link to either `gta5-mods.com`, `patreon.com` or `tebex store`. Or any other link that the mod is hosted on.
-      placeholder: https://www.gta5-mods.com/vehicles/ubermacht-sentinel-sg4-add-on-liveries
+      placeholder: |
+        Example: https://www.gta5-mods.com/vehicles/ubermacht-sentinel-sg4-add-on-liveries
