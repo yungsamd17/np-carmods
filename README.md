@@ -14,5 +14,6 @@
   <br>
   <br>
   <br>
+  <p>If you found a mod that needs to be <b><em>Added, Removed or Updated</em></b> <em>Report</em> it <a href="https://github.com/yungsamd17/np-carmods/issues/new/choose"><b>here</b></a>.</p>
   <p>This is a <b><em>fan</em></b> made project by <a href="https://yungsamd17.github.io/">Sam</a>.</p>
 </div>
