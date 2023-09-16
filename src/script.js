@@ -38,10 +38,7 @@ function myFunction() {
     }
 
     // Exclude elements in the footer div class
-    if (element.closest(".footer")) {
-      isExcluded = true;
-    }
-    if (element.closest(".modal-header")) {
+    if (element.closest("footer")) {
       isExcluded = true;
     }
     if (element.closest(".onxLink")) {
@@ -167,20 +164,13 @@ function scrollToTop(duration) {
   window.requestAnimationFrame(animateScroll);
 }
 
-
-// Updates Modal
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("updatesBtn");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-span.onclick = function() {
-  modal.style.display = "none";
-}
-// When clicked anywhere outside, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+// Get the search input field
+var searchInput = document.querySelector('.form-control');
+// Add an event listener to the input field
+searchInput.addEventListener('keydown', function(event) {
+  // Check if the key pressed is Enter (key code 13)
+  if (event.keyCode === 13) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
   }
-}
+});

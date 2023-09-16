@@ -1,0 +1,151 @@
+$primary: #00f8b9;
+$secondary: #212127;
+$success: #1d1d25;
+$danger: #111117;
+
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #16161d; 
+}
+::-webkit-scrollbar-thumb {
+  background: #00f8b9;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #008060;
+}
+
+.topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: #212127;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.topBtn:hover {
+  background-color: #00f8b9;
+  color: #111117;
+}
+
+header {
+  background-color: #212127;
+  font-family: 'Nunito', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header input[type="search"] {
+  background-color: #111117;
+  color: #fff;
+  border: none;
+}
+
+header input[type="search"]:focus {
+  background-color: #111117;
+}
+
+/* Carmods */
+#modList {
+  list-style-type: none;
+  padding: 0;
+}
+#modList li a {
+  text-decoration: none;
+  color: white;
+}
+#modList li a:hover:not(.header) {
+  border-radius: 3px;
+  background-color: #111117;
+  text-decoration: none;
+  color: #00f8b9;
+  display: inline;
+}
+/* Search results */
+#searchResultsMessage {
+  color: #00f8b9;
+  font-weight: bold;
+}
+
+/* Main content cards */
+.mainCard {
+  list-style-type: none;
+  color: white;
+  background-color: #1d1d25;
+  padding: 30px 30px 10px 30px;
+  border-radius: 10px;
+  border: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.otherCarmodsList {
+  width: 100%;
+  list-style-type: none;
+  color: white;
+  background-color: #1d1d25;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  border: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.otherCarmodsList p {
+  margin-bottom: 0;
+}
+.mainCard h2 {
+  padding-top: 1rem;
+  font-weight: 900;
+}
+
+/* Links */
+.pastebinLink {
+  color: #00f8b9;
+  font-weight: bold;
+  text-decoration: none;
+}
+h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.onxLink {
+  color: #ee46bd;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Normal links */
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Style for NP Exclusive mods*/
+.npExclusive {
+  margin: 0px;
+}
+/* OTHER */
+::selection {
+  background-color: #00f8b9;
+  color: #1f2933;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url("http://fonts.googleapis.com/css?family=Lato");
