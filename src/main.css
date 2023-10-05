@@ -140,6 +140,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* Carmods */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 #modList {
   list-style-type: none;
   padding: 0;
@@ -172,7 +177,7 @@ input[type="search"]::-webkit-search-decoration {
   list-style-type: none;
   color: white;
   background-color: var(--secondary-nopixel-darker);
-  padding: 30px 30px 10px 30px;
+  padding: 30px;
   margin: 87px auto 20px auto;
   border-radius: 10px;
   border: 20px;
