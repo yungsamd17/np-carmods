@@ -7,13 +7,13 @@
 <div align="center">
   <h3><b>Reguraly updated LIST OF ALL VEHICLE MODS from <a href="https://www.nopixel.net">NoPixel</a> FiveM Roleplay Server</b></h3>
 <br>
-  97% of the Mods are the same as seen on NoPixel
+  98% of the Mods are the same as seen on NoPixel
   <br>
-  The other 3% of Mods are either exclusively made for NoPixel or acquired/bought from from other sources.
-  <br>
-  <br>
+  The other 2% of Mods are either exclusively made for NoPixel or acquired/bought from from other sources.
   <br>
   <br>
-  <p>If you found a mod that needs to be <b><em>Added, Removed or Updated</em></b> <em>Report</em> it <a href="https://github.com/yungsamd17/np-carmods/issues/new/choose"><b>here</b></a>.</p>
-  <p>This is a <b><em>fan</em></b> made project by <a href="https://yungsamd17.github.io/">Sam</a>.</p>
+  <br>
+  <br>
+  <p>If you found a mod that needs to be <b><em>Added, Removed or Updated</em></b> Make an Issue about it <a href="https://github.com/yungsamd17/np-carmods/issues/new/choose"><b>here</b></a>.</p>
+  <p>This is a <b><em>fan-made</em></b> project made and maintained by <a href="https://yungsamd17.github.io/">Sam (yungsamd17)</a>.</p>
 </div>
