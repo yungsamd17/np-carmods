@@ -107,7 +107,7 @@ header .search {
 header input[type="search"] {
   background: var(--main-nopixel) no-repeat;
   background-image: url('assets/search-icon.svg');
-  background-position: 10px 9px;
+  background-position: 10px 8.25px;
   background-size: 22px;
   border: none;
   float: right;
@@ -133,14 +133,14 @@ input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
   color: rgba(255, 255, 255, 0.6);
   opacity: 0.6; /* Firefox */
-  font-weight: 200;
+  font-weight: normal;
 }
 
 /* Carmods */
-ul {
+.card ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
