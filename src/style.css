@@ -74,7 +74,6 @@ header a {
     color: #fff;
 }
 header a:hover {
-    color: #ccc;
     text-decoration: none;
 }
 
@@ -313,7 +312,6 @@ input[type="search"]::-webkit-search-decoration {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -395,7 +393,6 @@ a:hover {
     .card {
         max-width: 60%
     }
-
     .otherCarmodsList {
         max-width: 60%
     }
@@ -405,34 +402,28 @@ a:hover {
     #loadingOverlay {
         top: 58px;
     }
-
     header .logo {
         padding-left: 10px;
     }
-
     header input[type="search"] {
         width: 250px;
         margin: 10px 10px 10px 0;
     }
-
     .card {
         padding: 5px 15px 5px 15px;
         padding-top: 20px;
         margin: 68px 10px 10px 10px;
         max-width: 100%
     }
-
     .otherCarmodsList {
         padding: 10px 15px 10px 15px;
         margin: 10px 10px 40px 10px;
         max-width: 100%
     }
-
     .topBtn {
         bottom: 55px;
         right: 25px;
     }
-
     .modal-content {
         width: 95%;
     }
@@ -451,7 +442,6 @@ a:hover {
     header {
         font-size: 1.350rem;
     }
-
     header input[type="search"] {
         width: 150px;
         padding: 5px;
@@ -459,13 +449,11 @@ a:hover {
         background-size: 16px;
         border-radius: 8px;
     }
-
     .card {
         padding: 5px 15px 5px 15px;
         padding-top: 20px;
         margin: 58px 10px 10px 10px;
     }
-
     .otherCarmodsList {
         padding: 10px 15px 10px 15px;
         margin: 10px 10px 40px 10px;
