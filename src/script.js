@@ -1,3 +1,14 @@
+// Loading Overlay
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    var loadingOverlay = document.getElementById("loadingOverlay");
+    loadingOverlay.style.opacity = 0;
+    setTimeout(function () {
+      loadingOverlay.style.display = "none";
+    }, 200); // Delay to hide the overlay after the opacity transition
+  }, 400); // Delay of # second before hiding the overlay
+});
+
 // Fetch Mods from the external JSON file
 document.addEventListener("DOMContentLoaded", function() {
     const xhr = new XMLHttpRequest();
