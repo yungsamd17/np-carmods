@@ -209,7 +209,7 @@ input[type="search"]::-webkit-search-decoration {
     padding: 0;
 }
 
-.github-button {
+.footer-button {
     background-color: var(--main-nopixel);
     padding: 1.5px 3px 0 4px;
     margin: 0 0 0 5px;
@@ -222,36 +222,19 @@ input[type="search"]::-webkit-search-decoration {
     cursor: pointer;
     float: left;
     font-weight: bold;
+    font-size: 1rem;
     user-select: none;
 }
 
-.github-button:hover {
+.footer-button:hover {
     background-color: var(--main-accent-nopixel);
     color: var(--main-nopixel);
     text-decoration: none;
 }
 
 .updates-button {
-    background-color: var(--main-nopixel);
-    padding: 1.5px 3px 0 4px;
     margin: 0 15px 0 0;
-    border: none;
-    border-radius: 3px;
-    color: var(--main-accent-nopixel);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
     float: right;
-    font-weight: bold;
-    user-select: none;
-    font-size: 1rem;
-}
-
-.updates-button:hover {
-    background-color: var(--main-accent-nopixel);
-    color: var(--main-nopixel);
-    text-decoration: none;
 }
 
 .footer-link {
