@@ -1,4 +1,4 @@
-body {
+:root {
     --main-nopixel: #111117;
     --main-nopixel-lighter: #16161d;
     --secondary-nopixel: #212127;
@@ -8,27 +8,31 @@ body {
     --accent-onx: #ee46bd;
     --shadow: rgba(0, 0, 0, 0.2);
 
+    color-scheme: dark;
+    overflow-y: scroll;
+}
+
+body {
     margin: 0;
     padding: 0;
     background-color: var(--main-nopixel);
     font-family: Arial;
-    overflow-y: scroll;
-}
-:root {
-    color-scheme: dark;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
     background: var(--main-nopixel-lighter);
 }
+
 ::-webkit-scrollbar-thumb {
     background: var(--main-accent-nopixel);
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: var(--main-accent-nopixel-hover);
 }
@@ -46,7 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   opacity: 1;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.3s ease;
 }
 
 /* HEADER */
@@ -61,6 +65,7 @@ header {
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
     font-size: 2rem;
 }
+
 header .navbar {
     align-items: center;
     display: -webkit-inline-box;
@@ -88,9 +93,6 @@ header .logo {
 .nopixelLogo {
     color: var(--main-accent-nopixel);
     font-weight: 900;
-}
-.vehMods {
-    color: #fff;
 }
 
 /* SEARCH */
@@ -178,18 +180,14 @@ input[type="search"]::-webkit-search-decoration {
     max-width: 45%;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
+
 .otherCarmodsList {
-    list-style-type: none;
-    color: white;
-    background-color: var(--secondary-nopixel-darker);
+    height: auto;
     padding: 10px 30px 10px 30px;
     margin: 10px auto 46px auto;
-    border-radius: 10px;
-    border: 20px;
-    max-width: 45%;
     text-align: center;
-    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
+
 .row:after {
     content: "";
     display: table;
@@ -207,9 +205,10 @@ input[type="search"]::-webkit-search-decoration {
     background: var(--main-nopixel);
 }
 .footer p {
-    margin: 0 85px 0 0;
+    margin: 0;
     padding: 0;
 }
+
 .github-button {
     background-color: var(--main-nopixel);
     padding: 1.5px 3px 0 4px;
@@ -225,11 +224,13 @@ input[type="search"]::-webkit-search-decoration {
     font-weight: bold;
     user-select: none;
 }
+
 .github-button:hover {
     background-color: var(--main-accent-nopixel);
     color: var(--main-nopixel);
     text-decoration: none;
 }
+
 .updates-button {
     background-color: var(--main-nopixel);
     padding: 1.5px 3px 0 4px;
@@ -246,11 +247,13 @@ input[type="search"]::-webkit-search-decoration {
     user-select: none;
     font-size: 1rem;
 }
+
 .updates-button:hover {
     background-color: var(--main-accent-nopixel);
     color: var(--main-nopixel);
     text-decoration: none;
 }
+
 .footer-link {
     background-color: var(--main-nopixel);
     border: none;
@@ -261,6 +264,7 @@ input[type="search"]::-webkit-search-decoration {
     text-decoration: none;
     font-weight: bold;
 }
+
 .footer-link:hover {
     background-color: var(--main-accent-nopixel);
     color: var(--main-nopixel);
@@ -307,6 +311,7 @@ input[type="search"]::-webkit-search-decoration {
     background-color: rgba(0, 0, 0, 0.6);
     animation: fadeIn 0.2s ease-in-out;
 }
+
 /* Animation for fading in the modal */
 @keyframes fadeIn {
     from {
@@ -354,7 +359,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* LINK STYLES */
-.pastebinLink {
+.accentLinks {
     color: var(--main-accent-nopixel);
     font-weight: bold;
     text-decoration: none;
@@ -364,6 +369,7 @@ input[type="search"]::-webkit-search-decoration {
     font-weight: bold;
     text-decoration: none;
 }
+
 /* Normal links */
 a {
     color: white;
@@ -372,13 +378,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .updateModal {
     margin-top: 20px;
     font-weight: bold;
-}
-/* Style for NP Exclusive mods*/
-.npExclusive {
-    margin: 0px;
 }
 
 /* OTHER */
@@ -393,15 +396,9 @@ a:hover {
     .card {
         max-width: 60%
     }
-    .otherCarmodsList {
-        max-width: 60%
-    }
 }
 
 @media only screen and (max-width: 720px) {
-    #loadingOverlay {
-        top: 58px;
-    }
     header .logo {
         padding-left: 10px;
     }
@@ -418,7 +415,6 @@ a:hover {
     .otherCarmodsList {
         padding: 10px 15px 10px 15px;
         margin: 10px 10px 40px 10px;
-        max-width: 100%
     }
     .topBtn {
         bottom: 55px;
@@ -436,9 +432,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    #loadingOverlay {
-        top: 48px;
-    }
     header {
         font-size: 1.350rem;
     }
@@ -457,7 +450,6 @@ a:hover {
     .otherCarmodsList {
         padding: 10px 15px 10px 15px;
         margin: 10px 10px 40px 10px;
-        max-width: 100%
     }
 }
 
