@@ -70,6 +70,7 @@ function displayCarList(categories) {
             carList.appendChild(carSubList);
         }
     });
+    openCarListLinksInNewTab();
 }
 
 // Open carList mod links in new tab
