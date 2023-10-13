@@ -95,6 +95,10 @@ header .logo {
     font-weight: 900;
 }
 
+.nopixelLogo:hover {
+    text-decoration: underline;
+}
+
 /* SEARCH */
 header .search {
     flex: 1 0 auto;
