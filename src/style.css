@@ -386,6 +386,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 720px) {
+    #loadingOverlay {
+        top: 58px;
+    }
+
     header .logo {
         padding-left: 10px;
     }
@@ -419,6 +423,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    #loadingOverlay {
+        top: 48px;
+    }
+
     header {
         font-size: 1.350rem;
     }
