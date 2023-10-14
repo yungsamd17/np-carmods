@@ -1,3 +1,23 @@
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.pastebinButton')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
 // Back to the top Button
 let mybutton = document.getElementById("topBtn");
 window.onscroll = function() {
@@ -38,8 +58,8 @@ function scrollToTop(duration) {
 
 
 // Updates Modal
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("updatesBtn");
+var modal = document.getElementById("changelogModal");
+var btn = document.getElementById("changelogBtn");
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
     modal.style.display = "block";
