@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" translate="no">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -12,10 +12,10 @@
     <meta property="og:image" content="https://yungsamd17.github.io/np-carmods/src/assets/link-preview.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="NoPixel Vehicle Mods">
-    <meta name="twitter:description" content=" LIST OF ALL VEHICLE MODS from NoPixel FiveM Roleplay Server">
+    <meta name="twitter:description" content="LIST OF ALL VEHICLE MODS from NoPixel FiveM Roleplay Server">
     <meta name="twitter:image" content="https://yungsamd17.github.io/np-carmods/src/assets/link-preview.png">
     <link rel="icon" type="image/png" href="https://static.wikia.nocookie.net/nopixel/images/4/4a/Site-favicon.ico" sizes="32x32">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="src/style.css" />
     <script type="text/javascript" src="src/js/fetchMods.js" defer></script>
     <script type="text/javascript" src="src/js/search.js" defer></script>
@@ -37,66 +37,59 @@
             </div>
         </div>
     </header>
-    <div class="row">
-        <div class="centercolumn">
-            <div id="loadingOverlay">
-                <h2>Loading Mods...</h2>
+    <div class="centercolumn">
+        <div class="cardLinks">
+            <a class="link" href="https://pastebin.com/jsvw46cn" target="_blank" title="NoPixel Vehicle Mods - Pastebin.com">
+                <i class="fa-regular fa-paste"></i> Pastebin</a>
+            <a class="link" href="https://github.com/yungsamd17/np-carmods" target="_blank" title="GitHub Repository">
+                <i class="fa-brands fa-github"></i> GitHub</a>
+            <a class="link" id="changelogBtn" title="Recent Updates">
+                <i class="fa-regular fa-file-lines"></i> Changelog</a>
+            <a class="link" style="margin-right: 0;" href="./about/index.html" title="About page">
+                <i class="fa-regular fa-circle-question"></i> About</a>
+        </div>
+        <div class="card">
+            <span id="searchResultsMessage"></span>
+            <div id="modList">
+                <ul id="carList"></ul>
             </div>
-            <div class="card">
-                <span id="searchResultsMessage"></span>
-                <a href="https://pastebin.com/jsvw46cn" class="accentLinks" target="_blank" title="Current NoPixel Vehicle Mods | Pastebin">Pastebin</a>
-                <br>
-                <a href="https://pastebin.com/EERcd3Yh" class="accentLinks" target="_blank" title="Old NoPixel Vehicle Mods | Pastebin">Old Pastebin</a>
-                <div id="modList">
-                    <ul id="carList"></ul>
-                </div>
-            </div>
-            <div class="card otherCarmodsList">
-                <span>You can also check out <a href="https://yungsamd17.github.io/onx-carmods" target="_blank" class="accentLinks onxLink">ONX Vehicle Mods</a></span>
-            </div>
+        </div>
+        <div class="card otherCarmodsList" style="display: none;">
+            <span>You can also check out <a href="https://yungsamd17.github.io/onx-carmods" target="_blank" class="onxLink">ONX Vehicle Mods</a></span>
         </div>
     </div>
     <button onclick="topFunction()" id="topBtn" class="topBtn" title="Back to top"><i class="fa fa-arrow-up"></i></button>
-    <div class="footer">
-        <a class="footer-button" href="https://github.com/yungsamd17/np-carmods" title="GitHub Repository">
-            <i class="fa-brands fa-github"></i> GitHub
-        </a>
-        <button id="updatesBtn" class="footer-button updates-button" title="Recent Updates">
-            <i class="fa-solid fa-pen-to-square"></i> Updates
-        </button>
-        <p>Made by <a href="https://yungsamd17.github.io" class="footer-link">Sam</a></p>
-    </div>
-    <div id="myModal" class="modal">
+    <div id="changelogModal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
                 <span class="close">&times;</span>
-                <h2 style="font-weight: 900;">Recent Updates</h2>
+                <h2>Changelog</h2>
             </div>
             <div class="modal-body">
-                <p class="updateModal">16/08/2023</p>
+                <p class="changelogModalHeaders">16/08/2023</p>
                 <ul>
                     <li>Added Vapid Speedo Express (RHL Delivery Van)</li>
                 </ul>
-                <p class="updateModal">04/08/2023</p>
+                <p class="changelogModalHeaders">04/08/2023</p>
                 <ul>
                     <li>Added BMW M5 CS Sound Mod</li>
                 </ul>
-                <p class="updateModal">25/06/2023</p>
+                <p class="changelogModalHeaders">25/06/2023</p>
                 <ul>
                     <li>Added Hot Air Balloon</li>
                 </ul>
-                <p class="updateModal">23/06/2023</p>
+                <p class="changelogModalHeaders">23/06/2023</p>
                 <ul>
                     <li>Added Valkyrie</li>
                     <li>Added '22 Countach</li>
                     <li>Added '12 Escalade</li>
                 </ul>
-                <p class="updateModal">31/05/2023</p>
+                <p class="changelogModalHeaders">31/05/2023</p>
                 <ul>
                     <li>Added Mazda 13B Rotory Sound Mod</li>
                     <li>Added 5.2 V10 Sound Mod</li>
                 </ul>
-                <p style="font-weight:bold;"> Check <a href="https://github.com/yungsamd17/np-carmods/commits" style="color: white; text-decoration: underline;"><em>repository commits</em></a> to see more Recent Updates.</p>
+                <p style="font-weight:bold;"> Check <a href="https://github.com/yungsamd17/np-carmods/commits" style="color: white; text-decoration: underline;"><em>repository commits</em></a> for more.</p>
             </div>
         </div>
     </div>

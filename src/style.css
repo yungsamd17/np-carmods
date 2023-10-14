@@ -37,21 +37,6 @@ body {
     background: var(--main-accent-nopixel-hover);
 }
 
-/* LOADING OVERLAY */
-#loadingOverlay {
-  position: fixed;
-  top: 68px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--main-nopixel);
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
 
 /* HEADER */
 header {
@@ -75,9 +60,11 @@ header .navbar {
     flex-grow: 1;
     width: 100%;
 }
+
 header a {
     color: #fff;
 }
+
 header a:hover {
     text-decoration: none;
 }
@@ -90,6 +77,7 @@ header .logo {
     padding-right: 5px;
     padding-left: 15px;
 }
+
 .nopixelLogo {
     color: var(--main-accent-nopixel);
     font-weight: 900;
@@ -103,6 +91,7 @@ header .logo {
 header .search {
     flex: 1 0 auto;
 }
+
 header input[type="search"] {
     background: var(--main-nopixel) no-repeat;
     background-image: url('assets/search-icon.svg');
@@ -123,9 +112,11 @@ header input[type="search"] {
     text-indent: 30px;
     display: block;
 }
+
 header input[type="search"]:focus {
     outline: 2px solid #fff;
 }
+
 /* Hide the clear button on the search input */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -145,14 +136,17 @@ input[type="search"]::-webkit-search-decoration {
     margin: 0;
     padding: 0;
 }
+
 #modList {
     list-style-type: none;
     padding: 0;
 }
+
 #modList li a {
     text-decoration: none;
     color: white;
 }
+
 #modList li a:hover:not(.header) {
     border-radius: 3px;
     background-color: var(--main-nopixel);
@@ -178,91 +172,67 @@ input[type="search"]::-webkit-search-decoration {
     color: white;
     background-color: var(--secondary-nopixel-darker);
     padding: 30px;
-    margin: 87px auto 20px auto;
+    margin: 10px auto 20px auto;
     border-radius: 10px;
     border: 20px;
     max-width: 45%;
+    min-height: 2635px;
+    transition: visibility 0.3s ease;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
 
 .otherCarmodsList {
-    height: auto;
+    min-height: 18px;
     padding: 10px 30px 10px 30px;
-    margin: 10px auto 46px auto;
+    margin: 10px auto 20px auto;
     text-align: center;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* FOOTER */
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-    color: #fff;
-    background: var(--main-nopixel);
-}
-.footer p {
-    margin: 0;
+.cardLinks {
     padding: 0;
+    margin: 87px auto 20px auto;
+    border-radius: 5px;
+    max-width: 45%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer-button {
-    background-color: var(--main-nopixel);
-    padding: 1.5px 3px 0 4px;
-    margin: 0 0 0 5px;
-    border: none;
-    border-radius: 3px;
-    color: var(--main-accent-nopixel);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    float: left;
-    font-weight: bold;
+.link {
+    margin-right: 10px;
     font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
     user-select: none;
 }
 
-.footer-button:hover {
-    background-color: var(--main-accent-nopixel);
-    color: var(--main-nopixel);
-    text-decoration: none;
-}
-
-.updates-button {
-    margin: 0 15px 0 0;
-    float: right;
-}
-
-.footer-link {
-    background-color: var(--main-nopixel);
-    border: none;
-    border-radius: 3px;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
+.link:hover {
+    color: var(--main-accent-nopixel);
     font-weight: bold;
-}
-
-.footer-link:hover {
-    background-color: var(--main-accent-nopixel);
-    color: var(--main-nopixel);
     text-decoration: none;
 }
+
+.aboutCard {
+    list-style-type: none;
+    color: white;
+    background-color: var(--secondary-nopixel-darker);
+    padding: 10px 30px 30px 30px;
+    margin: 87px auto 20px auto;
+    border-radius: 10px;
+    border: 20px;
+    max-width: 45%;
+    min-height: 100px;
+    transition: visibility 0.3s ease;
+    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+}
+
 
 /* Back to Top BUTTON */
 .topBtn {
     display: none;
     position: fixed;
-    bottom: 65px;
+    bottom: 30px;
     right: 30px;
     z-index: 99;
     width: 50px;
@@ -287,14 +257,14 @@ input[type="search"]::-webkit-search-decoration {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 63px;
     /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
     animation: fadeIn 0.2s ease-in-out;
 }
@@ -315,10 +285,11 @@ input[type="search"]::-webkit-search-decoration {
     background-color: var(--secondary-nopixel-darker);
     margin: auto;
     padding: 0;
-    width: 80%;
+    width: 35%;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
     border-radius: 10px;
 }
+
 /* The Close Button */
 .close {
     color: #fff;
@@ -326,12 +297,14 @@ input[type="search"]::-webkit-search-decoration {
     font-size: 2rem;
     font-weight: bold;
 }
+
 .close:hover,
 .close:focus {
     color: var(--main-accent-nopixel);
     text-decoration: none;
     cursor: pointer;
 }
+
 .modal-header {
     padding: 2px 16px;
     background-color: var(--secondary-nopixel);
@@ -340,17 +313,13 @@ input[type="search"]::-webkit-search-decoration {
     border-radius: 10px 10px 0 0;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
+
 .modal-body {
     padding: 2px 16px;
     color: #fff;
 }
 
 /* LINK STYLES */
-.accentLinks {
-    color: var(--main-accent-nopixel);
-    font-weight: bold;
-    text-decoration: none;
-}
 .onxLink {
     color: var(--accent-onx);
     font-weight: bold;
@@ -362,11 +331,12 @@ a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
 
-.updateModal {
+.changelogModalHeaders {
     margin-top: 20px;
     font-weight: bold;
 }
@@ -378,39 +348,53 @@ a:hover {
 }
 
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .card {
-        max-width: 60%
+        max-width: 50%
+    }
+
+    .cardLinks,
+    .aboutCard {
+        max-width: 50%
+    }
+
+    .modal-content {
+        width: 55%;
     }
 }
 
-@media only screen and (max-width: 720px) {
-    #loadingOverlay {
-        top: 58px;
-    }
-
+@media only screen and (max-width: 1000px) {
     header .logo {
         padding-left: 10px;
     }
+
     header input[type="search"] {
         width: 250px;
         margin: 10px 10px 10px 0;
     }
-    .card {
-        padding: 5px 15px 5px 15px;
-        padding-top: 20px;
-        margin: 68px 10px 10px 10px;
-        max-width: 100%
-    }
+
+    .card,
     .otherCarmodsList {
         padding: 10px 15px 10px 15px;
-        margin: 10px 10px 40px 10px;
+        margin: 10px 10px 0 10px;
+        max-width: 100%
     }
-    .topBtn {
-        bottom: 55px;
-        right: 25px;
+
+    .otherCarmodsList {
+        margin-bottom: 10px;
     }
+
+    .cardLinks {
+        padding: 5px 15px 5px 15px;
+        padding-top: 20px;
+        margin: 53px 10px 10px 10px;
+        max-width: 100%
+    }
+
+    .aboutCard {
+        margin: 68px 10px 10px 10px;
+    }
+
     .modal-content {
         width: 95%;
     }
@@ -423,13 +407,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    #loadingOverlay {
-        top: 48px;
-    }
-
     header {
         font-size: 1.350rem;
     }
+
     header input[type="search"] {
         width: 150px;
         padding: 5px;
@@ -437,14 +418,25 @@ a:hover {
         background-size: 16px;
         border-radius: 8px;
     }
-    .card {
-        padding: 5px 15px 5px 15px;
-        padding-top: 20px;
-        margin: 58px 10px 10px 10px;
-    }
+
+    .card,
     .otherCarmodsList {
         padding: 10px 15px 10px 15px;
-        margin: 10px 10px 40px 10px;
+        margin: 10px 10px 0 10px;
+    }
+
+    .otherCarmodsList {
+        margin-bottom: 10px;
+    }
+
+    .cardLinks {
+        padding: 5px 15px 5px 15px;
+        padding-top: 20px;
+        margin: 43px 10px 10px 10px;
+    }
+
+    .aboutCard {
+        margin: 58px 10px 10px 10px;
     }
 }
 
