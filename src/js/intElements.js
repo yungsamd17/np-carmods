@@ -60,7 +60,7 @@ function scrollToTop(duration) {
 // Updates Modal
 var modal = document.getElementById("changelogModal");
 var btn = document.getElementById("changelogBtn");
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementsByClassName("modalCloseBtn")[0];
 btn.onclick = function() {
     modal.style.display = "block";
 }

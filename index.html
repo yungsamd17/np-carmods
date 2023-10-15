@@ -24,20 +24,31 @@
 </head>
 
 <body>
+
+    <!-- Navbar -->
     <header>
         <div class="navbar">
+            
+            <!-- Navbar Header -->
             <div class="logo">
                 <a href="https://www.nopixel.net/" title="NoPixel.net Website">
                     <span class="nopixelLogo">NoPixel</span>
                 </a>
                 <span>Vehicle Mods</span>
             </div>
+
+            <!-- Search input -->
             <div class="search">
                 <input type="search" id="searchInput" class="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" />
             </div>
+
         </div>
     </header>
+
+    <!-- Carmods and Links -->
     <div class="centercolumn">
+
+        <!-- Links -->
         <div class="cardLinks">
             <a class="link" href="https://pastebin.com/jsvw46cn" target="_blank" title="NoPixel Vehicle Mods - Pastebin.com">
                 <i class="fa-regular fa-paste"></i> Pastebin</a>
@@ -48,48 +59,62 @@
             <a class="link" style="margin-right: 0;" href="./about" title="About page">
                 <i class="fa-regular fa-circle-question"></i> About</a>
         </div>
+
+        <!-- Carmods -->
         <div class="card">
             <span id="searchResultsMessage"></span>
             <div id="modList">
                 <ul id="carList"></ul>
             </div>
         </div>
+
+        <!-- Other Carmods List -->
         <div class="card otherCarmodsList" style="display: none;">
             <span>You can also check out <a href="https://yungsamd17.github.io/onx-carmods" target="_blank" class="onxLink">ONX Vehicle Mods</a></span>
         </div>
+        <hr class="solid">
     </div>
+
+    <!-- Back to top Button -->
     <button onclick="topFunction()" id="topBtn" class="topBtn" title="Back to top"><i class="fa fa-arrow-up"></i></button>
+
+    <!-- Changelog Modal -->
     <div id="changelogModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">&times;</span>
+        <div class="modalContent">
+            <div class="modalHeader">
+                <span class="modalCloseBtn">&times;</span>
+
+                <!-- Modeal Header -->
                 <h2>Changelog</h2>
             </div>
-            <div class="modal-body">
-                <p class="changelogModalHeaders">16/08/2023</p>
+            <div class="modalBody">
+
+                <!-- Modal Content -->
+                <p class="modalHeaades">16/08/2023</p>
                 <ul>
                     <li>Added Vapid Speedo Express (RHL Delivery Van)</li>
                 </ul>
-                <p class="changelogModalHeaders">04/08/2023</p>
+                <p class="modalHeaades">04/08/2023</p>
                 <ul>
                     <li>Added BMW M5 CS Sound Mod</li>
                 </ul>
-                <p class="changelogModalHeaders">25/06/2023</p>
+                <p class="modalHeaades">25/06/2023</p>
                 <ul>
                     <li>Added Hot Air Balloon</li>
                 </ul>
-                <p class="changelogModalHeaders">23/06/2023</p>
+                <p class="modalHeaades">23/06/2023</p>
                 <ul>
                     <li>Added Valkyrie</li>
                     <li>Added '22 Countach</li>
                     <li>Added '12 Escalade</li>
                 </ul>
-                <p class="changelogModalHeaders">31/05/2023</p>
+                <p class="modalHeaades">31/05/2023</p>
                 <ul>
                     <li>Added Mazda 13B Rotory Sound Mod</li>
                     <li>Added 5.2 V10 Sound Mod</li>
                 </ul>
                 <p style="font-weight:bold;"> Check <a href="https://github.com/yungsamd17/np-carmods/commits" style="color: white; text-decoration: underline;"><em>repository commits</em></a> for more.</p>
+
             </div>
         </div>
     </div>

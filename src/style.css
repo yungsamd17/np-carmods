@@ -280,7 +280,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* Modal Content */
-.modal-content {
+.modalContent {
     position: relative;
     background-color: var(--secondary-nopixel-darker);
     margin: auto;
@@ -291,21 +291,21 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* The Close Button */
-.close {
+.modalCloseBtn {
     color: #fff;
     float: right;
     font-size: 2rem;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.modalCloseBtn:hover,
+.modalCloseBtn:focus {
     color: var(--main-accent-nopixel);
     text-decoration: none;
     cursor: pointer;
 }
 
-.modal-header {
+.modalHeader {
     padding: 2px 16px;
     background-color: var(--secondary-nopixel);
     color: white;
@@ -314,7 +314,7 @@ input[type="search"]::-webkit-search-decoration {
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
 
-.modal-body {
+.modalBody {
     padding: 2px 16px;
     color: #fff;
 }
@@ -336,7 +336,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.changelogModalHeaders {
+.modalHeaades {
     margin-top: 20px;
     font-weight: bold;
 }
@@ -358,7 +358,7 @@ a:hover {
         max-width: 50%
     }
 
-    .modal-content {
+    .modalContent {
         width: 55%;
     }
 }
@@ -395,7 +395,7 @@ a:hover {
         margin: 68px 10px 10px 10px;
     }
 
-    .modal-content {
+    .modalContent {
         width: 95%;
     }
 }
