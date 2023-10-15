@@ -18,27 +18,43 @@ document.addEventListener("DOMContentLoaded", function() {
 function displayCarList(categories) {
     const carList = document.getElementById('carList');
 
-    categories.forEach(category => {
+    categories.forEach((category) => {
         const headerLevel = `h${category.headerLevel}`;
         const categoryHeader = document.createElement(headerLevel);
-        categoryHeader.textContent = category.category;
+
+        if (category.headerLink) {
+            const linkElement = document.createElement("a");
+            linkElement.href = category.headerLink.url;
+            linkElement.textContent = category.category;
+
+            // Check if openInNewTab is true for header link
+            if (category.headerLink.openInNewTab) {
+                linkElement.target = "_blank"; // Open link in a new tab
+            }
+
+            categoryHeader.appendChild(linkElement);
+        } else {
+            categoryHeader.textContent = category.category;
+        }
+
         carList.appendChild(categoryHeader);
 
         if (category.cars) {
-            const carSubList = document.createElement('ul');
+            const carSubList = document.createElement("ul");
 
-            category.cars.forEach(car => {
-                const li = document.createElement('li');
+            category.cars.forEach((car) => {
+                const li = document.createElement("li");
 
                 if (car.link) {
-                    const linkElement = document.createElement('a');
+                    const linkElement = document.createElement("a");
                     linkElement.href = car.link;
-                    linkElement.textContent = car.name || 'Link';
+                    linkElement.textContent = car.name || "Link";
+
                     li.appendChild(linkElement);
                 } else if (car.links && car.links.length > 0) {
-                    const delimiter = car.delimiter || ' + ';
+                    const delimiter = car.delimiter || " + ";
                     car.links.forEach((link, index) => {
-                        const linkElement = document.createElement('a');
+                        const linkElement = document.createElement("a");
                         linkElement.href = link.url;
                         linkElement.textContent = link.text;
                         li.appendChild(linkElement);
@@ -48,8 +64,8 @@ function displayCarList(categories) {
                         }
                     });
                 } else {
-                    const linkElement = document.createElement('a');
-                    linkElement.textContent = car.name || 'Link';
+                    const linkElement = document.createElement("a");
+                    linkElement.textContent = car.name || "Link";
                     li.appendChild(linkElement);
                 }
 
