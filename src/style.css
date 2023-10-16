@@ -1,4 +1,4 @@
-body {
+:root {
     --main-nopixel: #111117;
     --main-nopixel-lighter: #16161d;
     --secondary-nopixel: #212127;
@@ -8,46 +8,35 @@ body {
     --accent-onx: #ee46bd;
     --shadow: rgba(0, 0, 0, 0.2);
 
+    color-scheme: dark;
+    overflow-y: scroll;
+}
+
+body {
     margin: 0;
     padding: 0;
     background-color: var(--main-nopixel);
     font-family: Arial;
-    overflow-y: scroll;
-}
-:root {
-    color-scheme: dark;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
     background: var(--main-nopixel-lighter);
 }
+
 ::-webkit-scrollbar-thumb {
     background: var(--main-accent-nopixel);
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background: var(--main-accent-nopixel-hover);
 }
 
-/* LOADING OVERLAY */
-#loadingOverlay {
-  position: fixed;
-  top: 68px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--main-nopixel);
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  transition: opacity 0.4s ease;
-}
 
 /* HEADER */
 header {
@@ -61,6 +50,7 @@ header {
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
     font-size: 2rem;
 }
+
 header .navbar {
     align-items: center;
     display: -webkit-inline-box;
@@ -70,11 +60,12 @@ header .navbar {
     flex-grow: 1;
     width: 100%;
 }
+
 header a {
     color: #fff;
 }
+
 header a:hover {
-    color: #ccc;
     text-decoration: none;
 }
 
@@ -86,18 +77,21 @@ header .logo {
     padding-right: 5px;
     padding-left: 15px;
 }
+
 .nopixelLogo {
     color: var(--main-accent-nopixel);
     font-weight: 900;
 }
-.vehMods {
-    color: #fff;
+
+.nopixelLogo:hover {
+    text-decoration: underline;
 }
 
 /* SEARCH */
 header .search {
     flex: 1 0 auto;
 }
+
 header input[type="search"] {
     background: var(--main-nopixel) no-repeat;
     background-image: url('assets/search-icon.svg');
@@ -118,9 +112,11 @@ header input[type="search"] {
     text-indent: 30px;
     display: block;
 }
+
 header input[type="search"]:focus {
     outline: 2px solid #fff;
 }
+
 /* Hide the clear button on the search input */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -140,14 +136,17 @@ input[type="search"]::-webkit-search-decoration {
     margin: 0;
     padding: 0;
 }
+
 #modList {
     list-style-type: none;
     padding: 0;
 }
+
 #modList li a {
     text-decoration: none;
     color: white;
 }
+
 #modList li a:hover:not(.header) {
     border-radius: 3px;
     background-color: var(--main-nopixel);
@@ -173,106 +172,67 @@ input[type="search"]::-webkit-search-decoration {
     color: white;
     background-color: var(--secondary-nopixel-darker);
     padding: 30px;
+    margin: 10px auto 20px auto;
+    border-radius: 10px;
+    border: 20px;
+    max-width: 45%;
+    min-height: 2635px;
+    transition: visibility 0.3s ease;
+    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+}
+
+.otherCarmodsList {
+    min-height: 18px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px auto 20px auto;
+    text-align: center;
+}
+
+.cardLinks {
+    padding: 0;
+    margin: 87px auto 20px auto;
+    border-radius: 5px;
+    max-width: 45%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.link:hover {
+    color: var(--main-accent-nopixel);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.aboutCard {
+    list-style-type: none;
+    color: white;
+    background-color: var(--secondary-nopixel-darker);
+    padding: 10px 30px 30px 30px;
     margin: 87px auto 20px auto;
     border-radius: 10px;
     border: 20px;
     max-width: 45%;
+    min-height: 100px;
+    transition: visibility 0.3s ease;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
-}
-.otherCarmodsList {
-    list-style-type: none;
-    color: white;
-    background-color: var(--secondary-nopixel-darker);
-    padding: 10px 30px 10px 30px;
-    margin: 10px auto 46px auto;
-    border-radius: 10px;
-    border: 20px;
-    max-width: 45%;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
-/* FOOTER */
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-    color: #fff;
-    background: var(--main-nopixel);
-}
-.footer p {
-    margin: 0 85px 0 0;
-    padding: 0;
-}
-.github-button {
-    background-color: var(--main-nopixel);
-    padding: 1.5px 3px 0 4px;
-    margin: 0 0 0 5px;
-    border: none;
-    border-radius: 3px;
-    color: var(--main-accent-nopixel);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    float: left;
-    font-weight: bold;
-    user-select: none;
-}
-.github-button:hover {
-    background-color: var(--main-accent-nopixel);
-    color: var(--main-nopixel);
-    text-decoration: none;
-}
-.updates-button {
-    background-color: var(--main-nopixel);
-    padding: 1.5px 3px 0 4px;
-    margin: 0 15px 0 0;
-    border: none;
-    border-radius: 3px;
-    color: var(--main-accent-nopixel);
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    float: right;
-    font-weight: bold;
-    user-select: none;
-    font-size: 1rem;
-}
-.updates-button:hover {
-    background-color: var(--main-accent-nopixel);
-    color: var(--main-nopixel);
-    text-decoration: none;
-}
-.footer-link {
-    background-color: var(--main-nopixel);
-    border: none;
-    border-radius: 3px;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-}
-.footer-link:hover {
-    background-color: var(--main-accent-nopixel);
-    color: var(--main-nopixel);
-    text-decoration: none;
-}
 
 /* Back to Top BUTTON */
 .topBtn {
     display: none;
     position: fixed;
-    bottom: 65px;
+    bottom: 30px;
     right: 30px;
     z-index: 99;
     width: 50px;
@@ -297,52 +257,55 @@ input[type="search"]::-webkit-search-decoration {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 63px;
     /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
     animation: fadeIn 0.2s ease-in-out;
 }
+
 /* Animation for fading in the modal */
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
 
 /* Modal Content */
-.modal-content {
+.modalContent {
     position: relative;
     background-color: var(--secondary-nopixel-darker);
     margin: auto;
     padding: 0;
-    width: 80%;
+    width: 35%;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
     border-radius: 10px;
 }
+
 /* The Close Button */
-.close {
+.modalCloseBtn {
     color: #fff;
     float: right;
     font-size: 2rem;
     font-weight: bold;
 }
-.close:hover,
-.close:focus {
+
+.modalCloseBtn:hover,
+.modalCloseBtn:focus {
     color: var(--main-accent-nopixel);
     text-decoration: none;
     cursor: pointer;
 }
-.modal-header {
+
+.modalHeader {
     padding: 2px 16px;
     background-color: var(--secondary-nopixel);
     color: white;
@@ -350,37 +313,32 @@ input[type="search"]::-webkit-search-decoration {
     border-radius: 10px 10px 0 0;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
-.modal-body {
+
+.modalBody {
     padding: 2px 16px;
     color: #fff;
 }
 
 /* LINK STYLES */
-.pastebinLink {
-    color: var(--main-accent-nopixel);
-    font-weight: bold;
-    text-decoration: none;
-}
 .onxLink {
     color: var(--accent-onx);
     font-weight: bold;
     text-decoration: none;
 }
+
 /* Normal links */
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
-.updateModal {
+
+.modalHeaades {
     margin-top: 20px;
     font-weight: bold;
-}
-/* Style for NP Exclusive mods*/
-.npExclusive {
-    margin: 0px;
 }
 
 /* OTHER */
@@ -390,22 +348,22 @@ a:hover {
 }
 
 
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .card {
-        max-width: 60%
+        max-width: 50%
     }
 
-    .otherCarmodsList {
-        max-width: 60%
+    .cardLinks,
+    .aboutCard {
+        max-width: 50%
+    }
+
+    .modalContent {
+        width: 55%;
     }
 }
 
-@media only screen and (max-width: 720px) {
-    #loadingOverlay {
-        top: 58px;
-    }
-
+@media only screen and (max-width: 1000px) {
     header .logo {
         padding-left: 10px;
     }
@@ -415,25 +373,29 @@ a:hover {
         margin: 10px 10px 10px 0;
     }
 
-    .card {
-        padding: 5px 15px 5px 15px;
-        padding-top: 20px;
-        margin: 68px 10px 10px 10px;
+    .card,
+    .otherCarmodsList {
+        padding: 10px 15px 10px 15px;
+        margin: 10px 10px 0 10px;
         max-width: 100%
     }
 
     .otherCarmodsList {
-        padding: 10px 15px 10px 15px;
-        margin: 10px 10px 40px 10px;
+        margin-bottom: 10px;
+    }
+
+    .cardLinks {
+        padding: 5px 15px 5px 15px;
+        padding-top: 20px;
+        margin: 53px 10px 10px 10px;
         max-width: 100%
     }
 
-    .topBtn {
-        bottom: 55px;
-        right: 25px;
+    .aboutCard {
+        margin: 68px 10px 10px 10px;
     }
 
-    .modal-content {
+    .modalContent {
         width: 95%;
     }
 }
@@ -445,9 +407,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    #loadingOverlay {
-        top: 48px;
-    }
     header {
         font-size: 1.350rem;
     }
@@ -460,16 +419,24 @@ a:hover {
         border-radius: 8px;
     }
 
-    .card {
-        padding: 5px 15px 5px 15px;
-        padding-top: 20px;
-        margin: 58px 10px 10px 10px;
+    .card,
+    .otherCarmodsList {
+        padding: 10px 15px 10px 15px;
+        margin: 10px 10px 0 10px;
     }
 
     .otherCarmodsList {
-        padding: 10px 15px 10px 15px;
-        margin: 10px 10px 40px 10px;
-        max-width: 100%
+        margin-bottom: 10px;
+    }
+
+    .cardLinks {
+        padding: 5px 15px 5px 15px;
+        padding-top: 20px;
+        margin: 43px 10px 10px 10px;
+    }
+
+    .aboutCard {
+        margin: 58px 10px 10px 10px;
     }
 }
 

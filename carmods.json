@@ -2,6 +2,10 @@
     {
         "category": "GTAWiseGuy Mods:",
         "headerLevel": 2,
+        "headerLink": {
+            "url": "https://www.gta5-mods.com/users/GTAWiseGuy",
+            "openInNewTab": true
+        },
         "cars": [
             {"name": "Annis ZR380 Custom", "link": "https://www.gta5-mods.com/vehicles/6str-annis-zr380-custom-add-on-tuning"},
             {"name": "Benefactor Schwartzer Custom", "link": "https://www.gta5-mods.com/vehicles/6str-benefactor-schwartzer-aggressor-custom-add-on-tuning"},
