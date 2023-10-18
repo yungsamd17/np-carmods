@@ -5,7 +5,6 @@
     --secondary-nopixel-darker: #1d1d25;
     --main-accent-nopixel: #00f8b9;
     --main-accent-nopixel-hover: #008060;
-    --accent-onx: #ee46bd;
     --shadow: rgba(0, 0, 0, 0.2);
 
     color-scheme: dark;
@@ -165,7 +164,7 @@ input[type="search"]::-webkit-search-decoration {
 /* Search results */
 #searchResultsMessage {
     color: var(--main-accent-nopixel);
-    font-weight: bold;
+    font-weight: 900;
 }
 
 /* CARD for content*/
@@ -178,13 +177,6 @@ input[type="search"]::-webkit-search-decoration {
     border-radius: 10px;
     border: 20px;
     min-height: 2635px;
-    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
-}
-
-.otherCarmodsList {
-    min-height: 18px;
-    padding: 10px 0;
-    text-align: center;
 }
 
 .linkCard {
@@ -211,19 +203,30 @@ input[type="search"]::-webkit-search-decoration {
     text-decoration: none;
 }
 
-.aboutCard {
-    list-style-type: none;
-    color: white;
-    background-color: var(--secondary-nopixel-darker);
-    padding: 10px 30px 30px 30px;
-    margin: 87px auto 20px auto;
-    border-radius: 10px;
-    border: 20px;
-    min-height: 100px;
-    transition: visibility 0.3s ease;
-    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+/* DIVIDER */
+.divider {
+    width: 100%;
+}
+hr {
+  border: 1px solid var(--secondary-nopixel-darker);
+  margin: 20px;
 }
 
+/* FOOTER */
+.footer {
+    background-color: var(--main-nopixel-lighter);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+    min-height: 18px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
 
 /* Back to Top BUTTON */
 .topBtn {
@@ -241,6 +244,7 @@ input[type="search"]::-webkit-search-decoration {
     cursor: pointer;
     padding: 5px;
     border-radius: 50%;
+    user-select: none;
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
 
@@ -261,7 +265,7 @@ input[type="search"]::-webkit-search-decoration {
     overflow: auto;
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
-    animation: fadeIn 0.2s ease-in-out;
+    animation: fadeIn 0.25s ease-in-out;
 }
 
 /* Animation for fading in the modal */
@@ -288,20 +292,27 @@ input[type="search"]::-webkit-search-decoration {
 /* The Close Button */
 .modalCloseBtn {
     color: #fff;
+    padding: 0 9px;
+    background-color: var(--main-nopixel-lighter);
+    border: 0;
+    border-radius: 50%;
     float: right;
     font-size: 2rem;
     font-weight: bold;
+    user-select: none;
 }
 
 .modalCloseBtn:hover,
 .modalCloseBtn:focus {
-    color: var(--main-accent-nopixel);
+    color: var(--main-nopixel);
+    background-color: var(--main-accent-nopixel);
     text-decoration: none;
     cursor: pointer;
 }
 
 .modalHeader {
-    padding: 2px 16px;
+    padding: 8px;
+    padding-left: 45px;
     background-color: var(--secondary-nopixel);
     color: white;
     text-align: center;
@@ -312,13 +323,6 @@ input[type="search"]::-webkit-search-decoration {
 .modalBody {
     padding: 2px 16px;
     color: #fff;
-}
-
-/* LINK STYLES */
-.onxLink {
-    color: var(--accent-onx);
-    font-weight: bold;
-    text-decoration: none;
 }
 
 /* Normal links */
@@ -341,7 +345,12 @@ a:hover {
     background-color: var(--main-accent-nopixel);
     color: #1f2933;
 }
-
+@media only screen and (max-width: 1070px) {
+    .topBtn {
+        bottom: 110px;
+        background-color: var(--main-nopixel-lighter);
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     header .logo {
@@ -362,11 +371,6 @@ a:hover {
         margin: 10px;
     }
 
-    .otherCarmodsList {
-        padding: 10px 0;
-        margin: 10px;
-    }
-
     .linkCard {
         padding: 5px 15px 5px 15px;
         padding-top: 20px;
@@ -374,8 +378,17 @@ a:hover {
         max-width: 100%
     }
 
-    .aboutCard {
-        margin: 68px 10px 10px 10px;
+    hr {
+        margin: 10px 20px;
+    }
+
+    .footer {
+        padding: 10px;
+        margin: 0 10px;
+    }
+
+    .topBtn {
+        bottom: 90px;
     }
 
     .modalContent {
@@ -405,14 +418,16 @@ a:hover {
     .linkCard {
         margin: 43px 10px 10px 10px;
     }
-
-    .aboutCard {
-        margin: 58px 10px 10px 10px;
-    }
 }
 
 @media only screen and (max-width: 400px) {
     header {
         font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .topBtn {
+        bottom: 110px;
     }
 }
