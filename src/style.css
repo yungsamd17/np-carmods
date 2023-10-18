@@ -325,6 +325,19 @@ hr {
     color: #fff;
 }
 
+.modalBody p {
+    font-weight: bold;
+}
+
+.modalBody a {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.modalBody a:hover {
+    color: var(--main-accent-nopixel);
+}
+
 /* Normal links */
 a {
     color: white;
@@ -333,11 +346,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-.modalHeaades {
-    margin-top: 20px;
-    font-weight: bold;
 }
 
 /* OTHER */
