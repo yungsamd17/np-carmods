@@ -62,7 +62,7 @@ var modal = document.getElementById("changelogModal");
 var btn = document.getElementById("changelogBtn");
 var span = document.getElementsByClassName("modalCloseBtn")[0];
 btn.onclick = function() {
-    modal.style.display = "block";
+    modal.style.display = "flex";
 }
 span.onclick = function() {
     modal.style.display = "none";
