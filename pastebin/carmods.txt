@@ -1,5 +1,5 @@
 LIST OF ALL NoPixel VEHICLE MODS:
-(Updated 16/08/2023)
+(Updated 18/10/2023)
 
 
 Website: https://yungsamd17.github.io/np-carmods
@@ -117,30 +117,30 @@ Mig-29A Fulcrum - https://tinyurl.com/2emkgqq6
 
 Vehicle Sound Mods:
 
-PD Corvette C7 (Racing LS V8) - https://tinyurl.com/y4raocgy
-PD Dodge Charger (Stock 6.2/Widebody 6.2SC V8) - https://tinyurl.com/y8v6bqso
-PD Dodge Challenger/Raid (6.2 V8) - https://www.patreon.com/Azerrty Mid Tier+
-PD Ford Crown Victoria CVPI (4.6 V8) - https://tinyurl.com/2p9348f4
-PD Ford Explorer/Taurus (Ecoboost 3.5 V6) - https://tinyurl.com/y4jedy9a
-PD Ford Mustang/Regral (5.2 V8 Voodoo) - https://tinyurl.com/y5yr7gkq
-Alfa Romeo Giulia GTAm (2.9 V6) - https://tinyurl.com/2jvwnze5
-Audi A6 (4.0T V8 (EA825) - https://tinyurl.com/ya9d6vxh
-Audi RS7 (M156 6.3L V8) - https://tinyurl.com/2oz3hezx
-BMW M5 CS (S63 TT 4.4L V8) - https://tinyurl.com/837j8hzz
-Buddha's Delorean/Viper/FXX-K EVO (8.4 V10) - https://tinyurl.com/2hmjjusf
-Mercedes-Benz A45 AMG - https://tinyurl.com/yysmj2nv
-Lamborghini Aventador (L539 V12) - https://tinyurl.com/y4bwnqeg
-Maibatsu Revolution SG-RX (4G63T) - https://tinyurl.com/28mkhxz9
-Mazda Rotary (1.3 2 Rotor 13B)
-Nissan GTR R35 GTR (VR38 V6) - https://tinyurl.com/ypud46es
-Nissan Skyline GTR R34 GTR (RB26) - https://www.patreon.com/Azerrty Mid Tier+
-Nissan Silvia S14 (SR20)- https://www.patreon.com/Azerrty Mid Tier+
-Nissan Silvia S14 BOSS (2JZ) - https://tinyurl.com/y8a5ztgx
-Obey 10F (Audi R8/Huracan) (5.2L V10)
-Pagani Huayra BC (AMG M158 V12) - https://tinyurl.com/2lo83j2y
-Porsche 718 GT4 RS (4.0 F6) - https://tinyurl.com/y35smlfw
-Porsche Carrera GT (5.7 V10) - https://tinyurl.com/y75gjp8u
-Subaru Impreza 22B-STI (EJ20 F4) - https://tinyurl.com/yxmgo3s9
+PD Corvette C7 - (Racing LS V8) - https://tinyurl.com/y4raocgy
+PD Dodge Charger - (Hemi 6.4L NA/SC V8) - https://tinyurl.com/y8v6bqso
+PD Dodge Challenger/Raid - (Hemi 6.2L V8) Mid Tier+ - https://www.patreon.com/Azerrty Mid Tier+
+PD Ford Crown Victoria CVPI - (4.6L V8) - https://tinyurl.com/2p9348f4
+PD Ford Explorer/Taurus - (Ecoboost 3.5L V6) - https://tinyurl.com/y4jedy9a
+PD Ford Mustang - (Voodoo 5.2L V8) - https://tinyurl.com/y5yr7gkq
+Alfa Romeo Giulia GTAm - (2.9L V6) - https://tinyurl.com/2jvwnze5
+Audi A6 - (T 4.0L V8 (EA825) - https://tinyurl.com/ya9d6vxh
+Audi RS7 - (M156 6.3L V8) - https://tinyurl.com/2oz3hezx
+BMW M5 CS - (S63 TT 4.4L V8) - https://tinyurl.com/837j8hzz
+Buddha's Delorean/Viper/FXX-K EVO - (Viper 8.4L V10) - https://tinyurl.com/2hmjjusf
+Mercedes-Benz A45 AMG - (M133 2.0L I4) - https://tinyurl.com/yysmj2nv
+Lamborghini Aventador - (L539 6.5L V12) - https://tinyurl.com/y4bwnqeg
+Maibatsu Revolution SG-RX - (4G63T 2.0L I4) - https://tinyurl.com/28mkhxz9
+Mazda Rotary - (13B 1.3L 2 Rotor) - https://tinyurl.com/y83udr23
+Nissan GTR R35 GTR - (VR38 3.8L V6) - https://tinyurl.com/ypud46es
+Nissan Skyline GTR R34 GTR - (RB26 2.6L I6) Mid Tier+ - https://www.patreon.com/Azerrty Mid Tier+
+Nissan Silvia S14/S13 - (SR20 2.0L I4) Mid Tier+ - https://www.patreon.com/Azerrty Mid Tier+
+Nissan Silvia S14 BOSS - (2JZ 3.0L I6) - https://tinyurl.com/y8a5ztgx
+Obey 10F (Audi R8/Huracan) - (5.2L V10) - https://tinyurl.com/yerfmrbu
+Pagani Huayra BC - (TT AMG M158 6.0L V12) - https://tinyurl.com/2lo83j2y
+Porsche 718 GT4 RS - (4.0L F6) - https://tinyurl.com/y35smlfw
+Porsche Carrera GT - (5.7L V10) - https://tinyurl.com/y75gjp8u
+Subaru Impreza 22B-STI - (EJ20 2.0L F4) - https://tinyurl.com/yxmgo3s9
 
 
 Other Mods:
@@ -151,4 +151,4 @@ Mapped Tanker Trailers - https://tinyurl.com/2dqzyoln
 Purple/Blue Car Flames/Backfire - https://tinyurl.com/4ysy7w35
 
 
-(Updated 16/08/2023)
+(Updated 18/10/2023)
