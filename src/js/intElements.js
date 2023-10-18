@@ -34,7 +34,7 @@ function scrollFunction() {
 
 // When clicked on the button, scroll to the top with animation
 function topFunction() {
-    scrollToTop(500); // Animation Duration
+    scrollToTop(200); // Animation Duration
 }
 
 function scrollToTop(duration) {
