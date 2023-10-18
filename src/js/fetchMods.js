@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
     };
-    xhr.open('GET', 'carmods.json');
+    xhr.open('GET', 'src/json/carmods.json');
     xhr.send();
 });
 
