@@ -1,6 +1,6 @@
 # Carmods JSON Documentation
 
-The structure of the Car Mods JSON has been enhanced to provide more flexibility and features. Below is a breakdown of the modifications:
+The structure of the Car Mods JSON has documented to provide a clear representation on flexibility and features. Below is a detailed breakdown of the key components:
 
 - [1. Mod Entry](#1-mod-entry)
   - [1.2. Normal Mod Entry](#12-normal-mod-entry)
