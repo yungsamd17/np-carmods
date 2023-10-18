@@ -1,0 +1,34 @@
+[
+    {
+        "date": "18/10/2023",
+        "changelog": [
+            {"change": "Updated 'Vehicle Sound Mods' mod names"}
+        ]
+    },
+    {
+        "date": "16/08/2023",
+        "changelog": [
+            {"change": "Added Vapid Speedo Express (RHL Delivery Van)"}
+        ]
+    },
+    {
+        "date": "04/08/2023",
+        "changelog": [
+            {"change": "Added BMW M5 CS Sound Mod"}
+        ]
+    },
+    {
+        "date": "25/06/2023",
+        "changelog": [
+            {"change": "Added Hot Air Balloon"}
+        ]
+    },
+    {
+        "date": "23/06/2023",
+        "changelog": [
+            {"change": "Added Valkyrie"},
+            {"change": "Added '22 Countach"},
+            {"change": "Added '12 Escalade"}
+        ]
+    }
+]
