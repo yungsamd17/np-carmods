@@ -57,13 +57,10 @@ function searchMods() {
         }
 
         // Exclude elements in the footer div class
-        if (element.closest(".cardLinks")) {
+        if (element.closest(".linkCard")) {
             isExcluded = true;
         }
         if (element.closest(".modal-header")) {
-            isExcluded = true;
-        }
-        if (element.closest(".onxLink")) {
             isExcluded = true;
         }
 
