@@ -35,6 +35,6 @@ function displayChangelog(changelog) {
 
     // Add link to the repository commits
     const commitsLink = document.createElement('p');
-    commitsLink.innerHTML = 'Check <a href="https://github.com/your/repository/commits" >repository commits</a> for more.';
+    commitsLink.innerHTML = 'Check <a href="https://github.com/yungsamd17/np-carmods/commits/main" >repository commits</a> for more.';
     modalBody.appendChild(commitsLink);
 }
