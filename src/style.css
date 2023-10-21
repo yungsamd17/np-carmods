@@ -24,16 +24,13 @@ body {
 ::-webkit-scrollbar {
     width: 10px;
 }
-
 ::-webkit-scrollbar-track {
     background: var(--main-nopixel-lighter);
 }
-
 ::-webkit-scrollbar-thumb {
     background: var(--main-accent-nopixel);
     border-radius: 10px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: var(--main-accent-nopixel-hover);
 }
@@ -144,16 +141,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 #modList li a {
-    text-decoration: none;
     color: #fff;
 }
 
 #modList li a:hover:not(.header) {
-    border-radius: 3px;
-    background-color: var(--main-nopixel);
-    text-decoration: none;
     color: var(--main-accent-nopixel);
-    display: inline;
 }
 
 /* CENTER COLUMN */
@@ -183,7 +175,6 @@ input[type="search"]::-webkit-search-decoration {
     padding: 0;
     margin: 88px auto 20px auto;
     border-radius: 5px;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,7 +191,6 @@ input[type="search"]::-webkit-search-decoration {
 .link:hover {
     color: var(--main-accent-nopixel);
     font-weight: bold;
-    text-decoration: none;
 }
 
 /* DIVIDER */
