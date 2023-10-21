@@ -175,6 +175,7 @@ input[type="search"]::-webkit-search-decoration {
     padding: 0;
     margin: 88px auto 20px auto;
     border-radius: 5px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
