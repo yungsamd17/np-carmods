@@ -367,6 +367,7 @@ br {
     .topBtn {
         bottom: 110px;
         background-color: var(--main-nopixel-lighter);
+        box-shadow: none;
     }
 }
 
