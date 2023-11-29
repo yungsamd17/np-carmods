@@ -35,43 +35,23 @@ function searchMods() {
         }
     });
 
-    var headersFromJSON = document.querySelectorAll("h2, h3");
+    var headersFromJSON = document.querySelectorAll("#modList h2, #modList h3");
     headersFromJSON.forEach(function(header) {
         header.style.display = "none"; // Hide headers from JSON
     });
 
-    var otherElements = document.querySelectorAll("a:not([id='searchInput'])");
+    var otherElements = document.querySelectorAll("#modList a:not([id='searchInput'])");
     otherElements.forEach(function(element) {
-        var parentUL = element.closest("ul#carList");
-        var isExcluded = false;
+        element.style.display = "";
 
-        // Check if element is excluded from hiding
-        if (element.tagName === "A") {
-            var ancestorH1 = element.closest("h1");
-            var ancestorHeader = element.closest("header");
-            var ancestorP = element.closest("p");
+        var cardFooter = document.querySelector('.card');
+        cardFooter.style.minHeight = '80px';
 
-            if (ancestorH1 || ancestorHeader || (ancestorP && ancestorP.contains(element))) {
-                isExcluded = true;
-            }
-        }
-
-        // Exclude elements in the footer div class
-        if (element.closest(".linkCard")) {
-            isExcluded = true;
-        }
-        if (element.closest(".modal-header")) {
-            isExcluded = true;
-        }
-
-        if (!parentUL && !isExcluded) {
-            element.style.display = "none";
-        } else {
-            element.style.display = "";
-        }
+        var cardFooter = document.querySelector('.card.footer');
+        cardFooter.style.borderRadius = '10px';
     });
 
-    var searchResultsCount = document.querySelectorAll("ul#carList li:not([style='display: none;'])").length;
+    var searchResultsCount = document.querySelectorAll("#carList li:not([style='display: none;'])").length;
     var messageElement = document.getElementById("searchResultsMessage");
     messageElement.textContent = "Found " + searchResultsCount + " matching search result(s).";
 }
@@ -93,7 +73,7 @@ function clearSearchResults() {
         li.style.display = "";
     });
 
-    var otherElements = document.querySelectorAll("h2, h3, a:not([id='searchInput'])");
+    var otherElements = document.querySelectorAll("#modList h2, #modList h3, #modList a:not([id='searchInput'])");
     otherElements.forEach(function(element) {
         element.style.display = "";
     });
@@ -101,7 +81,6 @@ function clearSearchResults() {
     var messageElement = document.getElementById("searchResultsMessage");
     messageElement.textContent = "";
 }
-
 
 function loadSearchResults() {
     var urlParams = new URLSearchParams(window.location.search);
