@@ -363,6 +363,35 @@ br {
     user-select: none;
 }
 
+.support-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support-text-container {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.support-button {
+    color: var(--main-accent-nopixel);
+    background-color: transparent;
+    border: 2px solid var(--main-accent-nopixel);
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.15s;
+    user-select: none;
+}
+
+.support-button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    text-decoration: none;
+}
+s
 
 
 @media only screen and (max-width: 1070px) {
