@@ -347,6 +347,15 @@ a:hover {
     color: #1f2933;
 }
 
+.accent-link {
+  font-weight: bold;  
+  text-decoration: underline;
+}
+
+.accent-link:hover {
+  color: var(--main-accent-nopixel);
+}
+
 .center-text {
     text-align: center;
 }
