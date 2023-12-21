@@ -124,7 +124,6 @@ input[type="search"]::-webkit-search-decoration {
 ::placeholder {
     color: rgba(255, 255, 255, 0.6);
     opacity: 0.6;
-    /* Firefox */
     font-weight: normal;
 }
 
@@ -254,7 +253,6 @@ hr {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: #000;
     background-color: rgba(0, 0, 0, 0.6);
     animation: fadeIn 0.25s ease-in-out;
 }
