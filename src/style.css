@@ -24,9 +24,6 @@ body {
 ::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track {
-    background: var(--main-nopixel-lighter);
-}
 ::-webkit-scrollbar-thumb {
     background: var(--main-accent-nopixel);
     border-radius: 10px;
@@ -167,7 +164,7 @@ input[type="search"]::-webkit-search-decoration {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 20px;
-    min-height: 2645px;
+    min-height: 2712px;
 }
 
 .linkCard {
@@ -219,7 +216,7 @@ hr {
 }
 
 /* Back to Top BUTTON */
-.topBtn {
+#topBtn {
     display: none;
     position: fixed;
     bottom: 30px;
@@ -238,13 +235,13 @@ hr {
     box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
 }
 
-.topBtn:hover {
+#topBtn:hover {
     background-color: var(--main-accent-nopixel);
     color: var(--main-nopixel);
 }
 
 /* Updates MODAL */
-.modal {
+#changelogModal {
     display: none;
     position: fixed;
     z-index: 1000;
@@ -254,10 +251,10 @@ hr {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.6);
-    animation: fadeIn 0.25s ease-in-out;
+    animation: fadeIn 0.15s ease-in-out;
+    align-items: center;
 }
 
-/* Animation for fading in the modal */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -270,6 +267,7 @@ hr {
 /* Modal Content */
 .modalContent {
     position: relative;
+    display: flex;
     background-color: var(--secondary-nopixel-darker);
     margin: auto;
     padding: 0;
@@ -280,38 +278,44 @@ hr {
 
 /* The Close Button */
 .modalCloseBtn {
-    color: #fff;
-    padding: 0 9px;
-    background-color: var(--main-nopixel-lighter);
-    border: 0;
-    border-radius: 50%;
-    float: right;
-    font-size: 2rem;
-    font-weight: bold;
+    color: #999;
+    font-size: 1.75rem;
+    position: absolute;
+    right: 28px;
+    top: 22px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     user-select: none;
 }
 
 .modalCloseBtn:hover,
+.modalCloseBtn:active,
 .modalCloseBtn:focus {
-    color: var(--main-nopixel);
-    background-color: var(--main-accent-nopixel);
-    text-decoration: none;
+    color: #fff;
 }
 
 /* Modal Header */
 .modalHeader {
-    padding: 8px;
-    padding-left: 45px;
-    background-color: var(--secondary-nopixel);
     color: #fff;
     text-align: center;
-    border-radius: 10px 10px 0 0;
-    box-shadow: 0 4px 8px 0 var(--shadow), 0 6px 20px 0 var(--shadow);
+}
+
+.modalContainer {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+}
+
+.modalHeaderContent {
+    margin: 20px 0;
 }
 
 /* Modal Body */
 .modalBody {
+    width: 100%;
     padding: 2px 16px;
     color: #fff;
 }
@@ -398,11 +402,11 @@ br {
     background-color: rgba(255, 255, 255, 0.08);
     text-decoration: none;
 }
-s
+
 
 
 @media only screen and (max-width: 1070px) {
-    .topBtn {
+    #topBtn {
         bottom: 110px;
         background-color: var(--main-nopixel-lighter);
         box-shadow: none;
@@ -444,7 +448,7 @@ s
         margin: 0 10px;
     }
 
-    .topBtn {
+    #topBtn {
         bottom: 90px;
     }
 
@@ -484,7 +488,7 @@ s
 }
 
 @media only screen and (max-width: 378px) {
-    .topBtn {
+    #topBtn {
         bottom: 110px;
     }
 }

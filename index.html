@@ -41,7 +41,7 @@
 
             <!-- Search input -->
             <div class="search">
-                <input type="search" id="searchInput" class="search-input" placeholder="Search..." autocomplete="off" spellcheck="false" />
+                <input type="search" id="searchInput" placeholder="Search..." autocomplete="off" spellcheck="false" />
             </div>
 
         </div>
@@ -87,25 +87,27 @@
     </div>
 
     <!-- Back to top Button -->
-    <button onclick="topFunction()" id="topBtn" class="topBtn" title="Back to top"><i class="fa fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="topBtn"><i class="fa-solid fa-chevron-up"></i></button>
 
     <!-- Changelog Modal -->
-    <div id="changelogModal" class="modal">
+    <div id="changelogModal">
         <div class="modalContent">
-            <div class="modalHeader">
-                <span class="modalCloseBtn">&times;</span>
+            <div class="modalBody">
 
                 <!-- Modeal Header -->
-                <h2>Changelog</h2>
-                
-            </div>
-            <div class="modalBody">
+                <div class="modalHeader">
+                    <div class="modalCloseBtn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="modalHeaderContainer">
+                        <h2 class="modalHeaderContent">Changelog</h2>
+                    </div>
+                </div>
 
                 <!-- Modal Content -->
                 <div id="changelog">
                     <ul id="changelog"></ul>
                 </div>
-
             </div>
         </div>
     </div>
