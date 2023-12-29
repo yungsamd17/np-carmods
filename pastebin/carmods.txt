@@ -1,154 +1,26 @@
 LIST OF ALL NoPixel VEHICLE MODS:
-(Updated 18/10/2023)
+(Updated 29/12/2023)
 
 
 Website: https://yungsamd17.github.io/np-carmods
-OLD List of all Mods: https://pastebin.com/EERcd3Yh
-
-GTAWiseGuy Mods:
-
-Annis ZR380 Custom - https://tinyurl.com/5aajk3wy
-Benefactor Schwartzer Custom - https://tinyurl.com/erevptp3
-BF Ladybird - https://tinyurl.com/2f2c8fe8
-Bravado Gauntlet Custom - https://tinyurl.com/usazkajv
-Declasse Drift Tampa V2 - https://tinyurl.com/yuzd3yce
-Declasse Drift Yosemite - https://tinyurl.com/38p6c4ea
-Imponte Ruiner 450 Custom - https://tinyurl.com/ymr5e7nn
-Karin Futo GT Hatch Custom - https://tinyurl.com/zh64cnsw
-Maibatsu Revolution SG-RX - https://tinyurl.com/yn5uxyyj
-Pegassi Tempesta Custom - https://tinyurl.com/2mofu685
-Ubermacht Sentinel Custom - https://tinyurl.com/uumkfa9j
-Ubermacht Sentinel Classic Custom - https://tinyurl.com/jh92ca6s
-Vapid Drift Ellie Custom - https://tinyurl.com/4t3tck8j
 
 
-CAR MODS:
+NoPixel 4.0 Vehicle Pack:
+NoPixel Assets Store - https://store.nopixel.net/category/assets
+YouTube Preview - https://www.youtube.com/watch?v=hMeeY6eNYOw
 
+Mods form GTA5-Mods.com:
 
-JDM:
-
-Nissan GTR R35 - https://tinyurl.com/ke8z5h7p
-Nissan GTR R35 Nismo (LW/RB/Nismo Body Kits) - https://tinyurl.com/rpjtd4mk
-Nissan Skyline GTR R34 - https://tinyurl.com/yn563b52 + Tail lights - https://tinyurl.com/yp8re8hb
-Nissan Silvia S14 Kouki - https://tinyurl.com/y9sa6vrv
-Nissan Silvia S14 BOSS - https://tinyurl.com/y7h3yky5
-Nissan Z '23 - NoPixel Exclusive
-Subaru Impreza 22B-STi - https://tinyurl.com/yau3oyes
-
-EU:
-
-Aston Martin Valkyrie Track Pack - https://tinyurl.com/6jajea9d
-Alfa Romeo Giulia GTAm - https://tinyurl.com/msns2ek7
-Bentley Flying Spur - NoPixel Exclusive
-BMW M5 CS '22 - https://tinyurl.com/y8sml2u7
-Lamborghini Aventador LP 700-4 LW - https://tinyurl.com/3nufyx53
-Lamborghini Countach LPI 800-4 '22 - https://tinyurl.com/ybj4yayw
-Mercedes-Benz A45 AMG - https://tinyurl.com/y7tkdd9r
-Mercedes-Benz G63 AMG '22 - https://tinyurl.com/2p8b5t3z
-Mercedes-AMG GT Black Series - https://tinyurl.com/3h3p6f85
-Mercedes‑AMG GT63 S Coupe - https://tinyurl.com/yeu9cnuk
-Pagani Huayra BC - https://tinyurl.com/2bekmjx8
-Porsche Carrera GT - https://tinyurl.com/ybdg5f6k
-Porsche 718 Cayman GT4 RS - NoPixel Exclusive
-Rolls-Royce Cullinan - NoPixel Exclusive
-
-NA:
-
-Cadillac Escalade '12 - https://tinyurl.com/mca5xrw5
-Dodge Challenger Raid - https://tinyurl.com/2c29pk2s
-Dodge Charger R/T '69 - https://tinyurl.com/4hh24tn6
-Dodge Dart HEMI Super Stock - https://tinyurl.com/y7og5h3e
-Dodge Viper ACR (T/A) '16 - https://tinyurl.com/y7htrrxb
-Ford GT '17 - https://tinyurl.com/ymheu3yy
-Ford Mustang GT (Blue622💙) - https://tinyurl.com/94vwuwnr
-Ford Mustang '65 - https://tinyurl.com/2nv6p7ky
-Tesla Model S Plaid - NoPixel Exclusive
-
-Lore Friendly Cars:
-
-Albany Primo ARD - https://tinyurl.com/y6m6bbn8
-Brute Mr Tasty (Ice-Cream Van) - https://tinyurl.com/2jx7o6wu
-Bravado Rumpo (News Van) - https://tinyurl.com/22v56oug
-Coil Savanna - https://tinyurl.com/j2kkcvh4
-Dinka Veto Krieger Kids-Kart - https://tinyurl.com/2qd8npx7
-Entara CW19 - https://tinyurl.com/yckswto5
-Flywheels Motor Portable Toilet - https://tinyurl.com/y9gboqb5
-Flywheels Couch Supreme - https://tinyurl.com/2628dupa
-Flywheels Pallet Lifter Supersport - https://tinyurl.com/28av3x99
-Four Wheel Mobility Scooter - https://tinyurl.com/2zd8hgcu
-Grotti Turismo Classic Custom - https://tinyurl.com/2j9o5n42
-JoBuilt Phantom - https://tinyurl.com/294lxzzx
-Karin Dilettante DX - https://tinyurl.com/2gvp5ejx
-Karin Sultan RS V8 MK2 - https://tinyurl.com/mns9wxfk
-Nagasaki Shopping Kart - https://tinyurl.com/ybpsrxvj
-Obey 8F Widebody - https://tinyurl.com/4u6md89j
-Ubermacht Sentinel SG4 - https://tinyurl.com/4rdshcm5
-Vapid Speedo Express (RHL Delivery Van) - https://tinyurl.com/w6enzmb
-Zircoflow Stratum Custom - https://tinyurl.com/4c3bfewh
-
-Dev/Spawn Cars:
-
-Audi A6 '20 (Dev Car) - https://tinyurl.com/mr3n2jhm
-Audi RS7 Sportback (Dev Car) - https://tinyurl.com/y3km973u (Paid)
-Ferrari FXX-K EVO (Dev Car) - https://tinyurl.com/2qmxubxl
-Fiat 126p (Dev Car) - https://tinyurl.com/jcp86bu
-WMotors Lykan Hypersport (Yeager's Car) - https://tinyurl.com/obqym7e
-
-Emergency Vehicles:
-
-AS-350 Ecureuil (PD Heli) - https://tinyurl.com/wo5wuel
-AugustaWestland AW139 (EMS Heli) - https://tinyurl.com/y7urfg2d
-Chevrolet Corvette C7 (NoPixel Exclusive)
-Ford Crown Victoria CVPI (NoPixel Exclusive)
-Ford Explorer '20 (NoPixel Exclusive)
-Ford Mustang GT350 '15 (NoPixel Exclusive)
-Ford Taurus '19 (NoPixel Exclusive)
-Dodge Charger Stock body/Hellcat '15 (NoPixel Exclusive)
-Dodge Challenger Hellcat (NoPixel Exclusive)
-Vapid Speedo Ambulance (NoPixel Exclusive livery) - https://tinyurl.com/2z52cxpo
-Vapid TARV (SWAT Truck) - https://tinyurl.com/33zukf73
-Volvo V70 Swedish Police - https://tinyurl.com/y442zkvf
-
-Planes/Helicopters:
-
-Bayraktar TB-2 UCAV (Simone Drone) - https://tinyurl.com/2axrvvfk
-Mig-29A Fulcrum - https://tinyurl.com/2emkgqq6
-
-
-Vehicle Sound Mods:
-
-PD Corvette C7 - (Racing LS V8) - https://tinyurl.com/y4raocgy
-PD Dodge Charger - (Hemi 6.4L NA/SC V8) - https://tinyurl.com/y8v6bqso
-PD Dodge Challenger/Raid - (Hemi 6.2L V8) Mid Tier+ - https://www.patreon.com/Azerrty Mid Tier+
-PD Ford Crown Victoria CVPI - (4.6L V8) - https://tinyurl.com/2p9348f4
-PD Ford Explorer/Taurus - (Ecoboost 3.5L V6) - https://tinyurl.com/y4jedy9a
-PD Ford Mustang - (Voodoo 5.2L V8) - https://tinyurl.com/y5yr7gkq
-Alfa Romeo Giulia GTAm - (2.9L V6) - https://tinyurl.com/2jvwnze5
-Audi A6 - (T 4.0L V8 (EA825) - https://tinyurl.com/ya9d6vxh
-Audi RS7 - (M156 6.3L V8) - https://tinyurl.com/2oz3hezx
-BMW M5 CS - (S63 TT 4.4L V8) - https://tinyurl.com/837j8hzz
-Buddha's Delorean/Viper/FXX-K EVO - (Viper 8.4L V10) - https://tinyurl.com/2hmjjusf
-Mercedes-Benz A45 AMG - (M133 2.0L I4) - https://tinyurl.com/yysmj2nv
-Lamborghini Aventador - (L539 6.5L V12) - https://tinyurl.com/y4bwnqeg
-Maibatsu Revolution SG-RX - (4G63T 2.0L I4) - https://tinyurl.com/28mkhxz9
-Mazda Rotary - (13B 1.3L 2 Rotor) - https://tinyurl.com/y83udr23
-Nissan GTR R35 GTR - (VR38 3.8L V6) - https://tinyurl.com/ypud46es
-Nissan Skyline GTR R34 GTR - (RB26 2.6L I6) Mid Tier+ - https://www.patreon.com/Azerrty Mid Tier+
-Nissan Silvia S14/S13 - (SR20 2.0L I4) Mid Tier+ - https://www.patreon.com/Azerrty Mid Tier+
-Nissan Silvia S14 BOSS - (2JZ 3.0L I6) - https://tinyurl.com/y8a5ztgx
-Obey 10F (Audi R8/Huracan) - (5.2L V10) - https://tinyurl.com/yerfmrbu
-Pagani Huayra BC - (TT AMG M158 6.0L V12) - https://tinyurl.com/2lo83j2y
-Porsche 718 GT4 RS - (4.0L F6) - https://tinyurl.com/y35smlfw
-Porsche Carrera GT - (5.7L V10) - https://tinyurl.com/y75gjp8u
-Subaru Impreza 22B-STI - (EJ20 2.0L F4) - https://tinyurl.com/yxmgo3s9
-
+Übermacht Oracle V12 - https://tinyurl.com/ype9pse8
+Vapid Speedo Express - https://tinyurl.com/w6enzmb
 
 Other Mods:
 
-Hot Air Balloon - https://tinyurl.com/2lfoh29z
 Lore-friendly Sports Rims Pack - https://tinyurl.com/2nrgsdbx
-Mapped Tanker Trailers - https://tinyurl.com/2dqzyoln
-Purple/Blue Car Flames/Backfire - https://tinyurl.com/4ysy7w35
 
 
-(Updated 18/10/2023)
+
+Old Vehicle Mods:
+
+3.0 Release: https://pastebin.com/EERcd3Yh
+3.0 Finale: https://pastebin.com/ZQLi2BNn
