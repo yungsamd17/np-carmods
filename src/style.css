@@ -164,7 +164,7 @@ input[type="search"]::-webkit-search-decoration {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 20px;
-    min-height: 2712px;
+    min-height: 427px;
 }
 
 .linkCard {
@@ -190,6 +190,31 @@ input[type="search"]::-webkit-search-decoration {
     font-weight: bold;
 }
 
+/*  INFO CARD  */
+
+.infoCard {
+    background-color: #feb343;
+    color: var(--main-nopixel);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.infoText {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+}
+
+.infoText a {
+    color: var(--main-nopixel);
+    cursor: pointer;
+}
+
+.infoText a:hover {
+    text-decoration: underline;
+}
+
 /* DIVIDER */
 .divider {
     width: 100%;
@@ -204,8 +229,8 @@ hr {
     background-color: var(--main-nopixel-lighter);
     color: rgba(255, 255, 255, 0.6);
     padding: 10px 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+    /*border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;*/
     margin-bottom: 0;
     min-height: 18px;
     text-align: center;
@@ -350,12 +375,20 @@ a:hover {
 }
 
 .accent-link {
-  font-weight: bold;  
+  font-weight: bold;
   text-decoration: underline;
 }
 
 .accent-link:hover {
   color: var(--main-accent-nopixel);
+}
+
+.accent-link-2 {
+  color: var(--main-accent-nopixel);
+}
+
+.accent-link-2:hover {
+  text-decoration: underline;
 }
 
 .center-text {

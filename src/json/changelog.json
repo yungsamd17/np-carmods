@@ -1,5 +1,13 @@
 [
     {
+        "date": "29/12/2023",
+        "changelog": [
+            {"change": "Removed 3.0 Carmods"},
+            {"change": "Added 4.0 Vehicle Pack, and links to it"},
+            {"change": "Added Mods from GTA5-Mods.com (3 Mods)"}
+        ]
+    },
+    {
         "date": "18/10/2023",
         "changelog": [
             {"change": "Updated 'Vehicle Sound Mods' mod names"}
@@ -21,14 +29,6 @@
         "date": "25/06/2023",
         "changelog": [
             {"change": "Added Hot Air Balloon"}
-        ]
-    },
-    {
-        "date": "23/06/2023",
-        "changelog": [
-            {"change": "Added Valkyrie"},
-            {"change": "Added '22 Countach"},
-            {"change": "Added '12 Escalade"}
         ]
     }
 ]

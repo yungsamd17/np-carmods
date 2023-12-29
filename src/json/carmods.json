@@ -1,184 +1,29 @@
 [
     {
-        "category": "GTAWiseGuy Mods:",
+        "category": "Mods form GTA5-Mods.com:",
         "headerLevel": 2,
         "headerLink": {
-            "url": "https://www.gta5-mods.com/users/GTAWiseGuy",
+            "url": "https://www.gta5-mods.com",
             "openInNewTab": true
         },
         "cars": [
-            {"name": "Annis ZR380 Custom", "link": "https://www.gta5-mods.com/vehicles/6str-annis-zr380-custom-add-on-tuning"},
-            {"name": "Benefactor Schwartzer Custom", "link": "https://www.gta5-mods.com/vehicles/6str-benefactor-schwartzer-aggressor-custom-add-on-tuning"},
-            {"name": "BF Ladybird", "link": "https://www.gta5-mods.com/vehicles/bf-ladybird-add-on-tuning"},
-            {"name": "Bravado Gauntlet Custom", "link": "https://www.gta5-mods.com/vehicles/6str-bravado-gauntlet-custom-add-on-tuning"},
-            {"name": "Declasse Drift Tampa V2", "link": "https://www.gta5-mods.com/vehicles/declasse-drift-tampa-v2-tuners-outlaws-add-on-liveries"},
-            {"name": "Declasse Drift Yosemite", "link": "https://www.gta5-mods.com/vehicles/6str-declasse-drift-yosemite-add-on-tuning"},
-            {"name": "Imponte Ruiner 450 Custom", "link": "https://www.gta5-mods.com/vehicles/6str-imponte-ruiner-450-custom-add-on-tuning"},
-            {"name": "Karin Futo GT Hatch Custom", "link": "https://www.gta5-mods.com/vehicles/6str-karin-futo-gt-hatch-custom-tuners-and-outlaws-add-on-tuneable"},
-            {"name": "Maibatsu Revolution SG-RX", "link": "https://www.gta5-mods.com/vehicles/maibatsu-revolution-sg-rx-tuners-and-outlaws"},
-            {"name": "Pegassi Tempesta Custom", "link": "https://www.gta5-mods.com/vehicles/6str-pegassi-tempesta-custom-tuners-outlaws-add-on-tuneable"},
-            {"name": "Ubermacht Sentinel Custom", "link": "https://www.gta5-mods.com/vehicles/ubermacht-sentinel-custom-tuners-and-outlaws"},
-            {"name": "Ubermacht Sentinel Classic Custom", "link": "https://www.gta5-mods.com/vehicles/6str-ubermacht-sentinel-classic-custom-add-on-tuning"},
-            {"name": "Vapid Drift Ellie Custom", "link": "https://www.gta5-mods.com/vehicles/6str-vapid-drift-ellie-custom-add-on-tuning"}
-        ]
-    },
-    {
-        "category": "CAR MODS:",
-        "headerLevel": 2
-    },
-    {
-        "category": "JDM:",
-        "headerLevel": 3,
-        "cars": [
-            {"name": "Nissan GTR R35", "link": "https://www.gta5-mods.com/vehicles/nissan-gtr-r35-varis-wald-c-west-topsecret"},
-            {"name": "Nissan GTR R35 Nismo (LW/RB/Nismo Body Kits)", "link": "https://www.gta5-mods.com/vehicles/2015-nissan-gtr-nismo-yca-y97y"},
-            {
-                "links": [
-                    {"text": "Nissan Skyline GTR R34", "url": "https://www.gta5-mods.com/vehicles/nissan-skyline-gt-r-bnr34-yca-y97y"},
-                    {"text": "Tail lights", "url": "https://www.gta5-mods.com/paintjobs/tail-lights-for-nissan-skyline-gt-r-bnr34"}
-                ]
-            },
-            {"name": "Nissan Silvia S14 Kouki", "link": "https://www.gta5-mods.com/vehicles/nissan-silvia-k-s-1998-add-on-tuning"},
-            {"name": "Nissan Silvia S14 BOSS", "link": "https://www.gta5-mods.com/vehicles/nissan-silvia-rocket-bunny-v2-boss-s14-add-on"},
-            {"name": "Nissan Z '23 (NoPixel Exclusive)"},
-            {"name": "Subaru Impreza 22B-STi", "link": "https://www.gta5-mods.com/vehicles/1998-subaru-impreza-22b-sti-series-i"}
-        ]
-    },
-    {
-        "category": "EU:",
-        "headerLevel": 3,
-        "cars": [
-            {"name": "Aston Martin Valkyrie Track Pack", "link": "https://www.gta5-mods.com/vehicles/aston-martin-valkyrie-track-pack-add-on"},
-            {"name": "Alfa Romeo Giulia GTAm", "link": "https://www.gta5-mods.com/vehicles/2021-alfa-romeo-giulia-gtam-add-on-extras-tuning-template"},
-            {"name": "Bentley Flying Spur (NoPixel Exclusive)"},
-            {"name": "BMW M5 CS '22", "link": "https://www.gta5-mods.com/vehicles/2022-bmw-m5-compe"},
-            {"name": "Lamborghini Aventador LP 700-4 LW", "link": "https://www.gta5-mods.com/vehicles/lamborghini-aventador-lp700-4-lb-works-limited-edition"},
-            {"name": "Lamborghini Countach LPI 800-4 '22", "link": "https://www.gta5-mods.com/vehicles/2022-lamborghini-countach-lpi800-4-add-on-vehfuncs-v"},
-            {"name": "Mercedes-Benz A45 AMG", "link": "https://www.gta5-mods.com/vehicles/mercedes-classe-a-45-amg-edition-1-add-on-replace"},
-            {"name": "Mercedes-Benz G63 AMG '22", "link": "https://www.gta5-mods.com/vehicles/2022-mercedes-amg-g63-add-on"},
-            {"name": "Mercedes-AMG GT Black Series", "link": "https://www.gta5-mods.com/vehicles/mercedes-amg-gt-black-series"},
-            {"name": "Mercedes‑AMG GT63 S Coupe", "link": "https://www.gta5-mods.com/vehicles/mercedes-amg-gt63-s-coupe"},
-            {"name": "Pagani Huayra BC", "link": "https://www.gta5-mods.com/vehicles/2016-pagani-huayra-bc"},
-            {"name": "Porsche Carrera GT", "link": "https://www.gta5-mods.com/vehicles/2003-porsche-carrera-gt-980"},
-            {"name": "Porsche 718 Cayman GT4 RS (NoPixel Exclusive)"},
-            {"name": "Rolls-Royce Cullinan (NoPixel Exclusive)"}
-        ]
-    },
-    {
-        "category": "NA:",
-        "headerLevel": 3,
-        "cars": [
-            {"name": "Cadillac Escalade '12", "link": "https://www.gta5-mods.com/vehicles/cadillac-escalade-esv-gmt900-12"},
-            {"name": "Dodge Challenger Raid", "link": "https://www.gta5-mods.com/vehicles/dodge-challanger-raid"},
-            {"name": "Dodge Charger R/T '69", "link": "https://www.gta5-mods.com/vehicles/1969-dodge-charger-r-t-add-on-replace-tuning-hq"},
-            {"name": "Dodge Dart HEMI Super Stock", "link": "https://www.gta5-mods.com/vehicles/1968-dodge-dart-hemi-super-stock-add-on-tuning-extras-template"},
-            {"name": "Dodge Viper ACR (T/A) '16", "link": "https://www.gta5-mods.com/vehicles/2014-srt-viper-t-a"},
-            {"name": "Ford GT '17", "link": "https://www.gta5-mods.com/vehicles/2017-ford-gt-add-on-replace-yca-aige"},
-            {"name": "Ford Mustang GT (Blue622💙)", "link": "https://www.gta5-mods.com/vehicles/ford-mustang-gt-add-on-tuning"},
-            {"name": "Ford Mustang '65", "link": "https://www.gta5-mods.com/vehicles/1965-ford-mustang-gt-mk-1"},
-            {"name": "Tesla Model S Plaid (NoPixel Exclusive)"}
-        ]
-    },
-    {
-        "category": "Lore Friendly Cars:",
-        "headerLevel": 2,
-        "cars": [
-            {"name": "Albany Primo ARD", "link": "https://www.gta5-mods.com/vehicles/albany-primo-ard"},
-            {"name": "Brute Mr Tasty (Ice-Cream Van)", "link": "https://www.gta5-mods.com/vehicles/brute-mr-tasty-gta-iv-style-add-on-liveries-template-sound-custom-shards"},
-            {"name": "Bravado Rumpo (News Van)", "link": "https://www.gta5-mods.com/vehicles/the-breaking-news-pack-add-on-liveries"},
-            {"name": "Coil Savanna", "link": "https://www.gta5-mods.com/vehicles/coil-savanna-add-on-tuning-sounds"},
-            {"name": "Dinka Veto Krieger Kids-Kart", "link": "https://www.gta5-mods.com/vehicles/dinka-veto-krieger-kids-kart"},
-            {"name": "Entara CW19", "link": "https://www.gta5-mods.com/vehicles/entara-cw19-add-on-tuning-liveries"},
-            {"name": "Flywheels Motor Portable Toilet", "link": "https://www.gta5-mods.com/vehicles/flywheels-motor-potty-add-on-tuning-lods-handling"},
-            {"name": "Flywheels Couch Supreme", "link": "https://www.gta5-mods.com/vehicles/flywheels-couch-supreme-add-on-lods"},
-            {"name": "Flywheels Pallet Lifter Supersport", "link": "https://www.gta5-mods.com/vehicles/flywheels-pallet-lifter-supersport-add-on-lods"},
-            {"name": "Four Wheel Mobility Scooter", "link": "https://www.gta5-mods.com/vehicles/4-wheel-mobility-scooter"},
-            {"name": "Grotti Turismo Classic Custom", "link": "https://www.gta5-mods.com/vehicles/grotti-turismo-classic-custom"},
-            {"name": "JoBuilt Phantom Custom", "link": "https://www.gta5-mods.com/vehicles/jobuilt-phantom-improved-replace-tuning"},
-            {"name": "Karin Dilettante DX", "link": "https://www.gta5-mods.com/vehicles/karin-dilettante-dx-add-on-liveries-tuning"},
-            {"name": "Karin Sultan RS V8 MK2", "link": "https://www.gta5-mods.com/vehicles/sultan-rsv8-mk2-add-on-tuning-sound-livery-template"},
-            {"name": "Nagasaki Shopping Kart", "link": "https://www.gta5-mods.com/vehicles/nagasaki-shopping-kart"},
-            {"name": "Obey 8F Widebody", "link": "https://www.gta5-mods.com/vehicles/obey-8f-d-street-widebody-version-add-on"},
-            {"name": "Ubermacht Sentinel SG4", "link": "https://www.gta5-mods.com/vehicles/ubermacht-sentinel-sg4-add-on-liveries"},
-            {"name": "Vapid Speedo Express (RHL Delivery Van)", "link": "https://www.gta5-mods.com/vehicles/vapid-speedo-express-add-on-liveries"},
-            {"name": "Zircoflow Stratum Custom", "link": "https://www.gta5-mods.com/vehicles/zircoflow-stratum"}
-        ]
-    },
-    {
-        "category": "Dev/Spawn Cars:",
-        "headerLevel": 3,
-        "cars": [
-            {"name": "Audi A6 '20 (Dev Car)", "link": "https://www.gta5-mods.com/vehicles/audi-a6-20-add-on-tuning-lod"},
-            {"name": "Audi RS7 Sportback (Dev Car)", "link": "https://www.gta5-mods.com/vehicles/2023-audi-rs7-abt-version-extras-hq-chassis-automatic-spoiler-animated-engine"},
-            {"name": "Ferrari FXX-K EVO (Dev Car)", "link": "https://www.gta5-mods.com/vehicles/ferrari-fxx-k-evo"},
-            {"name": "Fiat 126p (Dev Car)", "link": "https://www.gta5-mods.com/vehicles/fiat-126p-classic"},
-            {"name": "WMotors Lykan Hypersport (Yeager's Car)", "link": "https://www.gta5-mods.com/vehicles/2014-lykan-hypersport-wmotors-high-detail"}
-        ]
-    },
-    {
-        "category": "Emergency Vehicles:",
-        "headerLevel": 3,
-        "cars": [
-            {"name": "AS-350 Ecureuil (PD Heli)", "link": "https://www.gta5-mods.com/vehicles/as-350-ecureuil"},
-            {"name": "AugustaWestland AW139 (EMS Heli)", "link": "https://www.gta5-mods.com/vehicles/augustawestland-aw139-lafd-westpac-uk-spain-add-on"},
-            {"name": "Chevrolet Corvette C7 (NoPixel Exclusive)"},
-            {"name": "Ford Crown Victoria CVPI 2nd Gen (NoPixel Exclusive)"},
-            {"name": "Ford Explorer '20 (NoPixel Exclusive)"},
-            {"name": "Ford Mustang GT350 '15 (NoPixel Exclusive)"},
-            {"name": "Ford Taurus '19 (NoPixel Exclusive)"},
-            {"name": "Dodge Charger Stock body/Hellcat '15 (NoPixel Exclusive)"},
-            {"name": "Dodge Challenger Hellcat (NoPixel Exclusive)"},
-            {"name": "Vapid Speedo Ambulance (NoPixel Exclusive livery)", "link": "https://www.gta5-mods.com/vehicles/sams-speedo-express-ambulance-minipack-vehicles-eup-lore-friendly-add-on"},
-            {"name": "Vapid TARV (SWAT Truck)", "link": "https://www.gta5-mods.com/vehicles/vapid-tarv-lore-friendly-bearcat-add-on-eup"},
-            {"name": "Volvo V70 Swedish Police", "link": "https://www.gta5-mods.com/paintjobs/swedish-police-volvo-v70"}
-        ]
-    },
-    {
-        "category": "Planes/Helicopters:",
-        "headerLevel": 3,
-        "cars": [
-            {"name": "Bayraktar TB-2 UCAV Drone", "link": "https://www.gta5-mods.com/vehicles/bayraktar-tb-2-ucav-add-on"},
-            {"name": "Mig-29A Fulcrum", "link": "https://www.gta5-mods.com/vehicles/mig-29a-fulcrum-add-on"}
-        ]
-    },
-    {
-        "category": "Vehicle Sound Mods:",
-        "headerLevel": 2,
-        "cars": [
-            {"name": "PD Corvette C7 - (Racing LS V8)", "link": "https://www.gta5-mods.com/vehicles/racing-ls-v8-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "PD Dodge Charger - (Hemi 6.4L NA/SC V8)", "link": "https://www.gta5-mods.com/vehicles/dodge-charger-6-4-6-2sc-v8-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "PD Dodge Challenger/Raid - (Hemi 6.2L V8) Mid Tier+", "link": "https://www.patreon.com/Azerrty"},
-            {"name": "PD Ford Crown Victoria CVPI - (4.6L V8)", "link": "https://www.gta5-mods.com/vehicles/ford-crown-victoria-4-6-modular-v8-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "PD Ford Explorer/Taurus - (Ecoboost 3.5L V6)", "link": "https://www.gta5-mods.com/vehicles/ford-explorer-taurus-ecoboost-v6-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "PD Ford Mustang - (Voodoo 5.2L V8)", "link": "https://www.gta5-mods.com/vehicles/ford-shelby-gt350r-ford-voodoo-engine-sound-oiv-addon-fivem"},
-            {"name": "Alfa Romeo Giulia GTAm - (2.9L V6)", "link": "https://www.gta5-mods.com/vehicles/alfa-romeo-quadrifoglio-2-9-v6-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Audi A6 - (T 4.0L V8 (EA825)", "link": "https://www.gta5-mods.com/vehicles/vw-audi-4-0t-v8-ea825-engine-sound-oiv-addon-fivem"},
-            {"name": "Audi RS7 - (M156 6.3L V8)", "link": "https://www.gta5-mods.com/vehicles/mercedes-amg-c63-m156-6-3l-v8-sound-mod"},
-            {"name": "BMW M5 CS - (S63 TT 4.4L V8)", "link": "https://www.gta5-mods.com/vehicles/2012-bmw-m5-f10-13stewartc"},
-            {"name": "Buddha's Delorean/Viper/FXX-K EVO - (Viper 8.4L V10)", "link": "https://www.gta5-mods.com/vehicles/dodge-viper-8-4l-v10-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Mercedes-Benz A45 AMG - (M133 2.0L I4)", "link": "https://www.gta5-mods.com/vehicles/volkswagen-golf-gti-7-ea888-dsg-i4-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Lamborghini Aventador - (L539 6.5L V12)", "link": "https://www.gta5-mods.com/vehicles/lamborghini-avendator-l539-v12-engine-sound-oiv-add-on-fivem"},
-            {"name": "Maibatsu Revolution SG-RX - (4G63T 2.0L I4)", "link": "https://www.gta5-mods.com/vehicles/mitsubishi-lancer-4g63t-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Mazda Rotary - (13B 1.3L 2 Rotor)", "link": "https://www.gta5-mods.com/vehicles/mazda-rx-7-13b-rotary-engine-sound-oiv-add-on-fivem"},
-            {"name": "Nissan GTR R35 GTR - (VR38 3.8L V6)", "link": "https://www.gta5-mods.com/vehicles/annis-elegy-rh8-x-add-on-sounds"},
-            {"name": "Nissan Skyline GTR R34 GTR - (RB26 2.6L I6) Mid Tier+", "link": "https://www.patreon.com/Azerrty"},
-            {"name": "Nissan Silvia S14/S13 - (SR20 2.0L I4) Mid Tier+", "link": "https://www.patreon.com/Azerrty"},
-            {"name": "Nissan Silvia S14 BOSS - (2JZ 3.0L I6)", "link": "https://www.gta5-mods.com/vehicles/toyota-supra-2jz-3-0l-i6-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Obey 10F (Audi R8/Huracan) - (5.2L V10)", "link": "https://www.gta5-mods.com/vehicles/lamborghini-huracan-audi-r8-5-2-v10-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Pagani Huayra BC - (TT AMG M158 6.0L V12)", "link": "https://www.gta5-mods.com/vehicles/pagani-huayra-amg-m158-v12-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Porsche 718 GT4 RS - (4.0L F6)", "link": "https://www.gta5-mods.com/vehicles/porsche-911-gt3-rs-engine-sound-oiv-add-on-fivem"},
-            {"name": "Porsche Carrera GT - (5.7L V10)", "link": "https://www.gta5-mods.com/vehicles/porsche-carrera-gt-5-7-v10-engine-sound-oiv-add-on-fivem-sound"},
-            {"name": "Subaru Impreza 22B-STI - (EJ20 2.0L F4)", "link": "https://www.gta5-mods.com/vehicles/subaru-impreza-legacy-subaru-ej20-engine-sound-oiv-addon-fivem"}
+            {"name": "Übermacht Oracle V12", "link": "https://www.gta5-mods.com/vehicles/ubermacht-oracle-v12-pack-add-on-tuning"},
+            {"name": "Vapid Speedo Express", "link": "https://www.gta5-mods.com/vehicles/vapid-speedo-express-add-on-liveries"}
         ]
     },
     {
         "category": "Other Mods:",
+        "headerLevel": 3,
+        "cars": [
+            {"name": "Lore-friendly Sports Rims Pack", "link": "https://www.gta5-mods.com/vehicles/lore-friendly-sports-wheels-pack-lfswp-add-on-lods"}
+        ]
+    },
+    {
+        "category": "Old Vehicle Mods:",
         "headerLevel": 2,
         "cars": [
-            {"name": "Hot Air Balloon", "link": "https://www.gta5-mods.com/vehicles/hot-air-balloon-add-on-sp-fivem"},
-            {"name": "Lore-friendly Sports Rims Pack", "link": "https://www.gta5-mods.com/vehicles/lore-friendly-sports-wheels-pack-lfswp-add-on-lods"},
-            {"name": "Mapped Tanker Trailers", "link": "https://www.gta5-mods.com/vehicles/mapped-tanker-trailer-replace-liveries-template"},
-            {"name": "Purple/Blue Car Flames/Backfire", "link": "https://www.gta5-mods.com/misc/purple-blue-flames-replace-sp-fivem"}
+            {"name": "3.0 Release", "link": "https://pastebin.com/EERcd3Yh"},
+            {"name": "3.0 Finale", "link": "https://pastebin.com/ZQLi2BNn"}
         ]
     }
 ]
