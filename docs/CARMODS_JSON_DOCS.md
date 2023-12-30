@@ -10,6 +10,8 @@ The structure of the Car Mods JSON has documented to provide a clear representat
 - [2. Category Header Level](#2-category-header-level)
 - [3. Category Header Link _(Optional)_](#3-category-header-link-optional)
   - [3.2. Opening Links in New Tab _(Optional)_](#32-opening-links-in-new-tab-optional)
+- [4. Custom Link Style _(Optional)_](#3-custom-link-style-optional)
+  - [4.2. Applying Custom Link Style to Category Header Link _(Optional)_](#32-applying-custom-link-style-to-category-header-link-optional)
 
 
 ## 1. Mod Entry:
@@ -93,3 +95,43 @@ The `"headerLink"` key is optional. If not present, the category header will beh
   ```
 - **Usage:** Applicable to header link. If set to true, the link will open in a new tab.
   - By **default** if `"openInNewTab"` is not set, and header has link it just go to link and not open it in new tab.
+
+## 4. Custom Link Style _(Optional)_:
+
+You can apply custom styles to specific links by using the `"linkClass"` property in the JSON data. This can be helpful for differentiating or highlighting certain links.
+
+- **Key:** `"linkClass"`
+- **Value Type:** String
+- **Example:**
+  ```json
+  "linkClass": "custom-link-style"
+  ```
+- **Usage:** Assign a class name to this property, and the specified class will be added to the corresponding link's `<a>` element.
+
+### 4.2. Applying Custom Link Style to Category Header Link _(Optional)_:
+
+When using the `"headerLink"` property, you can apply a custom link style to the category header link.
+
+- **Key:** `"openInNewTab"`
+- **Value Type:** Boolean
+- **Example:**
+  ```json
+  {
+    "category": "GTAWiseGuy Mods:",
+    "headerLevel": 2,
+    "headerLink": {
+        "url": "https://www.gta5-mods.com/users/GTAWiseGuy",
+        "openInNewTab": true,
+        "linkClass": "custom-link-style"
+    },
+    "cars": [
+        {"name": "Annis ZR380 Custom", "link": "https://www.gta5-mods.com/vehicles/6str-annis-zr380-custom-add-on-tuning", "linkClass": "custom-link-style"},
+        {"name": "Benefactor Schwartzer Custom", "link": "https://www.gta5-mods.com/vehicles/6str-benefactor-schwartzer-aggressor-custom-add-on-tuning", "linkClass": "custom-link-style"},
+    ]
+  }
+  ```
+
+In this example, the `"custom-link-style"` class will be applied to both the category header link and the specified car mod links.
+
+> [!NOTE]  
+> Make sure the custom style is defined in your CSS to ensure the desired visual effect.
