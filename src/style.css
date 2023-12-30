@@ -136,10 +136,6 @@ input[type="search"]::-webkit-search-decoration {
     padding: 0;
 }
 
-#modList li a {
-    color: #fff;
-}
-
 #modList li a:hover:not(.header) {
     color: var(--main-accent-nopixel);
 }
@@ -164,7 +160,7 @@ input[type="search"]::-webkit-search-decoration {
     margin-bottom: 20px;
     border-radius: 10px;
     border: 20px;
-    min-height: 427px;
+    min-height: 445px;
 }
 
 .linkCard {

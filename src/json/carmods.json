@@ -1,5 +1,13 @@
 [
     {
+        "category": "NoPixel 4.0 Vehicle Pack:",
+        "headerLevel": 2,
+        "cars": [
+            {"name": "NoPixel Assets Store", "link": "https://store.nopixel.net/category/assets", "linkClass": "accent-link-2"},
+            {"name": "YouTube Preview", "link": "https://www.youtube.com/watch?v=hMeeY6eNYOw", "linkClass": "accent-link-2"}
+        ]
+    },
+    {
         "category": "Mods form GTA5-Mods.com:",
         "headerLevel": 2,
         "headerLink": {
@@ -7,6 +15,7 @@
             "openInNewTab": true
         },
         "cars": [
+            {"name": "PD Vapid Scout 2020", "link": "https://www.gta5-mods.com/vehicles/police-vapid-scout-2020-add-on-fivem-extras-callsign-system"},
             {"name": "Übermacht Oracle V12", "link": "https://www.gta5-mods.com/vehicles/ubermacht-oracle-v12-pack-add-on-tuning"},
             {"name": "Vapid Speedo Express", "link": "https://www.gta5-mods.com/vehicles/vapid-speedo-express-add-on-liveries"}
         ]

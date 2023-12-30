@@ -1,5 +1,13 @@
 [
     {
+        "date": "30/12/2023",
+        "changelog": [
+            {"change": "Added PD Vapid Scout 2020"},
+            {"change": "Moved 'NoPixel 4.0 Vehicle Pack:' category to rest of the carmods"},
+            {"change": "And added custom link styles string to JSON"}
+        ]
+    },
+    {
         "date": "29/12/2023",
         "changelog": [
             {"change": "Removed 3.0 Carmods"},
@@ -23,12 +31,6 @@
         "date": "04/08/2023",
         "changelog": [
             {"change": "Added BMW M5 CS Sound Mod"}
-        ]
-    },
-    {
-        "date": "25/06/2023",
-        "changelog": [
-            {"change": "Added Hot Air Balloon"}
         ]
     }
 ]

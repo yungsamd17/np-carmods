@@ -32,6 +32,11 @@ function displayCarList(categories) {
                 linkElement.target = "_blank"; // Open link in a new tab
             }
 
+            // Add specified style class if present
+            if (category.headerLink.linkClass) {
+                linkElement.classList.add(category.headerLink.linkClass);
+            }
+
             categoryHeader.appendChild(linkElement);
         } else {
             categoryHeader.textContent = category.category;
@@ -50,6 +55,11 @@ function displayCarList(categories) {
                     linkElement.href = car.link;
                     linkElement.textContent = car.name || "Link";
 
+                    // Add specified style class if present
+                    if (car.linkClass) {
+                        linkElement.classList.add(car.linkClass);
+                    }
+
                     li.appendChild(linkElement);
                 } else if (car.links && car.links.length > 0) {
                     const delimiter = car.delimiter || " + ";
@@ -57,6 +67,12 @@ function displayCarList(categories) {
                         const linkElement = document.createElement("a");
                         linkElement.href = link.url;
                         linkElement.textContent = link.text;
+
+                        // Add specified style class if present
+                        if (link.linkClass) {
+                            linkElement.classList.add(link.linkClass);
+                        }
+
                         li.appendChild(linkElement);
 
                         if (index < car.links.length - 1) {
@@ -66,6 +82,12 @@ function displayCarList(categories) {
                 } else {
                     const linkElement = document.createElement("a");
                     linkElement.textContent = car.name || "Link";
+
+                    // Add specified style class if present
+                    if (car.linkClass) {
+                        linkElement.classList.add(car.linkClass);
+                    }
+
                     li.appendChild(linkElement);
                 }
 
